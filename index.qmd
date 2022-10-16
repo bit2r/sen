@@ -1,11 +1,8 @@
 ---
-title: "dj"
+title: "수학교육 통계패키지"
 ---
 
-This is a Quarto website.
+bitStat 통계패키지
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```
+
