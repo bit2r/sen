@@ -7,6 +7,11 @@ subtitle: "참여자 모집"
 
 [참여신청서](https://forms.gle/JdbNYWoqJFSyKk7L9)
 
-# 오프라인 미팅
+# 교육과 미팅
 
+- [서울 R 미트업](https://www.meetup.com/seoul-r-meetup/)
+- [한국 R 사용자회 정기모임](https://meet.google.com/krv-apoo-dks)
+    - 매주 수요일 · 오후 9:00~ 10:00
+
+# 회의록
 
