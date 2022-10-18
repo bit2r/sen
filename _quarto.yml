@@ -17,6 +17,12 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - text: "행정업무"
+        menu:
+        - href: operation.qmd
+          text: "추진 개요"
+        - href: recruit.qmd
+          text: "참여자모집"
       - text: "수학교육"
         menu:
         - text: "들어가며"

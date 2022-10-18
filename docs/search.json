@@ -12,5 +12,40 @@
     "title": "관련 자료",
     "section": "",
     "text": "관련 자료\n\n소프트웨어: https://github.com/bit2r\n\n오픈 통계 패키지(BitStat): https://bitstat.shinyapps.io/bitstat/\n통계 가설검정: https://r2bit.shinyapps.io/infer_shiny/\n디지털 글쓰기: http://r2bit.ddns.net/\n\n데이터: https://r2bit.com/data.html\n\n실용통계 데이터셋(hsData): https://r2bit.com/hsData/\n기초통계 데이터셋(bitData): https://r2bit.com/bitData/\n\n콘텐츠: https://r2bit.com/book.html\n\n데이터 과학 언플러그드: https://r2bit.com/book_unplugged/\n데이터 과학 프로그래밍: https://r2bit.com/book_programming/\n데이터 시각화: https://r2bit.com/book_viz/\n데이터 과학 기본기: https://r2bit.com/book_analytics/\n오픈통계 패키지: https://r2bit.com/Rcmdr/\nR 텍스트 마이닝: https://r2bit.com/book_tm/\n\n오픈 커뮤니티와 지식나눔\n\n페이스북 그룹: https://www.facebook.com/groups/tidyverse\n서울 R 미트업: https://www.meetup.com/seoul-r-meetup/\n발표자료: https://tidyverse-korea.github.io/seoul-R/\n한국 R 컨퍼런스: https://use-r.kr/\n유튜브 채널: https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nq\n\n디지털 글쓰기, 워크샵, 발표자료:\n\n디지털 글쓰기: https://r2bit.com/quarto/\n발표 슬라이드: http://aispiration.com/ds-authoring/ https://r2bit.com/bitSlide\n워크샵: https://choonghyunryu.github.io/workshop_lecture/\n\n학교에서 통계와 데이터과학은 어떻게 가르쳐야 할까?\n전국통계교육교사모임\n\n통그라미\nFlourish - 한스 로스링, gapminder\n통계로 통하자_웹용 - 자유학기제 수업을 위한 워크북"
+  },
+  {
+    "objectID": "operation.html",
+    "href": "operation.html",
+    "title": "수학교육 통계패키지",
+    "section": "",
+    "text": "사업대상: 초중등 교원, 학부모, 통계패키지 개발에 관심있는 시민\n인원수: 50 / 100명 (예상/목표)\n비고: Hands-on 방식 학습 참여자와 함께 직접 제작 및 공유"
+  },
+  {
+    "objectID": "operation.html#추진일정",
+    "href": "operation.html#추진일정",
+    "title": "수학교육 통계패키지",
+    "section": "추진일정",
+    "text": "추진일정\n\n\n\n\n\n\n\n\n\n대상 모집\n사업 운영\n중간 피드백\n성과 보고\n\n\n\n\n\n서울 R 미트업\n한국 R 사용자회 SNS\n\n\n통계 패키지 온보딩\n공유와 협업 저작권\nHands-on 교육\n\n교육 및 사례 피드백을 통한 프로그램 보완\n\n프로그램 일지\n사례정리\n성과 공유 서비스 개발\n\n\n\n10월\n10월중\n매주\n사업종료시"
+  },
+  {
+    "objectID": "operation.html#추진-상세",
+    "href": "operation.html#추진-상세",
+    "title": "수학교육 통계패키지",
+    "section": "추진 상세",
+    "text": "추진 상세\n\n\n\n\n\n\n\n\n세부사업명\n세부추진내용\n비고\n\n\n\n\n통계 패키지 온보딩\n통계 처리 도구\n한글 통계 패키지 역사\n한국 R 사용자회 BitStat\n주1~2회\n\n\n공유와 협업 저작권\n상용 vs 오픈 SW\n상용 vs 공공 콘텐츠 저작권\n협업과 오픈 과학\n주1~2회\n\n\n통계 패키지 (학생)\nCLI vs GUI\n통계 데이터 이해: hsData\n기술통계와 시각화\n주1~2회\n\n\n통계 패키지 (교원)\nBitStat-HS\n데이터와 통계 핵심 개념\n귀납적 사고방식 전달\n주1~2회\n\n\n통계 패키지 (연구)\n디지털 글쓰기\n보고서와 논문 작성 자동화\nAI 시대 통계 교육 방향\n주1~2회"
+  },
+  {
+    "objectID": "operation.html#추진-일정",
+    "href": "operation.html#추진-일정",
+    "title": "수학교육 통계패키지",
+    "section": "추진 일정",
+    "text": "추진 일정\n\n\n\n\n\n\n\n\n\n대상 모집\n사업 운영\n중간 피드백\n성과 보고\n\n\n\n\n\n서울 R 미트업\n한국 R 사용자회 SNS\n\n\n통계 패키지 온보딩\n공유와 협업 저작권\nHands-on 교육\n\n교육 및 사례 피드백을 통한 프로그램 보완\n\n프로그램 일지\n사례정리\n성과 공유 서비스 개발\n\n\n\n10월\n10월중\n매주\n사업종료시"
+  },
+  {
+    "objectID": "recruit.html",
+    "href": "recruit.html",
+    "title": "수학교육 통계패키지",
+    "section": "",
+    "text": "오프라인 미팅"
   }
 ]
