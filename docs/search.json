@@ -1,66 +1,31 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "수학교육 통계패키지",
-    "section": "",
-    "text": "Note\n\n\n\n\n웹사이트: https://r2bit.com/sen/\n소스코드 저장소: https://github.com/bit2r/sen"
-  },
-  {
-    "objectID": "intro.html#이해당사자",
-    "href": "intro.html#이해당사자",
-    "title": "수학교육 통계패키지",
-    "section": "이해당사자",
-    "text": "이해당사자\n한국 R 사용자회에서는 통계패키지를 사용하고 있는 다양한 사용자의 요구를 충족시키기 위해 다양한 기능이 포함된 소프트웨어, 콘텐츠, 데이터, 커뮤니티를 운영하고 있습니다.\n\n학생: 귀납적 사고방식과 문제풀이 방식을 이해한 후에 학생 스스로 데이터를 가지고 분석을 할 수 있는 도구가 필요\n교사: 귀납적 사고방식과 문제풀이 방식을 학생에게 전달할 수 있는 효과적인 도구가 필요\n개발자: 학생과 교사 및 이해당사자가 필요한 통계 관련 콘텐츠, 데이터, 소프트웨어를 개발할 수 있는 플랫폼과 네트워크가 필요\n석박사 논문: 데이터 사이언스 시대에 맞는 맞춤형 석박사 논문 제작 및 개발을 지원할 수 있는 도구가 필요"
-  },
-  {
-    "objectID": "intro.html#도구",
-    "href": "intro.html#도구",
-    "title": "수학교육 통계패키지",
-    "section": "도구",
-    "text": "도구\n\n교사 : https://github.com/bit2r/bitStat-HS\n학생 : https://bitstat.shinyapps.io/bitstat/\n개발자: https://github.com/bit2r\n논문제작과 글쓰기\n\n통계 가설검정: https://r2bit.shinyapps.io/infer_shiny/\n디지털 글쓰기: http://r2bit.ddns.net/"
-  },
-  {
-    "objectID": "operation.html",
-    "href": "operation.html",
-    "title": "수학교육 통계패키지",
-    "section": "",
-    "text": "사업대상: 초중등 교원, 학부모, 통계패키지 개발에 관심있는 시민\n인원수: 50 / 100명 (예상/목표)\n비고: Hands-on 방식 학습 참여자와 함께 직접 제작 및 공유"
-  },
-  {
-    "objectID": "operation.html#추진-일정",
-    "href": "operation.html#추진-일정",
-    "title": "수학교육 통계패키지",
-    "section": "추진 일정",
-    "text": "추진 일정\n\n\n\n\n\n\n\n\n\n대상 모집\n사업 운영\n중간 피드백\n성과 보고\n\n\n\n\n\n서울 R 미트업\n한국 R 사용자회 SNS\n\n\n통계 패키지 온보딩\n공유와 협업 저작권\nHands-on 교육\n\n교육 및 사례 피드백을 통한 프로그램 보완\n\n프로그램 일지\n사례정리\n성과 공유 서비스 개발\n\n\n\n10월\n10월중\n매주\n사업종료시"
-  },
-  {
-    "objectID": "operation.html#추진-상세",
-    "href": "operation.html#추진-상세",
-    "title": "수학교육 통계패키지",
-    "section": "추진 상세",
-    "text": "추진 상세\n\n\n\n\n\n\n\n\n세부사업명\n세부추진내용\n비고\n\n\n\n\n통계 패키지 온보딩\n통계 처리 도구\n한글 통계 패키지 역사\n한국 R 사용자회 BitStat\n주1~2회\n\n\n공유와 협업 저작권\n상용 vs 오픈 SW\n상용 vs 공공 콘텐츠 저작권\n협업과 오픈 과학\n주1~2회\n\n\n통계 패키지 (학생)\nCLI vs GUI\n통계 데이터 이해: hsData\n기술통계와 시각화\n주1~2회\n\n\n통계 패키지 (교원)\nBitStat-HS\n데이터와 통계 핵심 개념\n귀납적 사고방식 전달\n주1~2회\n\n\n통계 패키지 (연구)\n디지털 글쓰기\n보고서와 논문 작성 자동화\nAI 시대 통계 교육 방향\n주1~2회"
-  },
-  {
-    "objectID": "recruit.html",
-    "href": "recruit.html",
-    "title": "수학교육 통계패키지",
-    "section": "",
-    "text": "신청\n참여신청서\n\n\n교육과 미팅\n\n서울 R 미트업\n한국 R 사용자회 정기모임\n\n매주 수요일 · 오후 9:00~ 10:00\n\n\n\n\n회의록"
-  },
-  {
-    "objectID": "reference.html",
-    "href": "reference.html",
-    "title": "관련 자료",
-    "section": "",
-    "text": "한국 R 사용자회\n\n\n\n관련 자료\n\n소프트웨어: https://github.com/bit2r\n\n오픈 통계 패키지(BitStat): https://bitstat.shinyapps.io/bitstat/\n통계 가설검정: https://r2bit.shinyapps.io/infer_shiny/\n디지털 글쓰기: http://r2bit.ddns.net/\n\n데이터: https://r2bit.com/data.html\n\n실용통계 데이터셋(hsData): https://r2bit.com/hsData/\n기초통계 데이터셋(bitData): https://r2bit.com/bitData/\n\n콘텐츠: https://r2bit.com/book.html\n\n데이터 과학 언플러그드: https://r2bit.com/book_unplugged/\n데이터 과학 프로그래밍: https://r2bit.com/book_programming/\n데이터 시각화: https://r2bit.com/book_viz/\n데이터 과학 기본기: https://r2bit.com/book_analytics/\n오픈통계 패키지: https://r2bit.com/Rcmdr/\nR 텍스트 마이닝: https://r2bit.com/book_tm/\n\n오픈 커뮤니티와 지식나눔\n\n페이스북 그룹: https://www.facebook.com/groups/tidyverse\n서울 R 미트업: https://www.meetup.com/seoul-r-meetup/\n발표자료: https://tidyverse-korea.github.io/seoul-R/\n한국 R 컨퍼런스: https://use-r.kr/\n유튜브 채널: https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nq\n\n디지털 글쓰기, 워크샵, 발표자료:\n\n디지털 글쓰기: https://r2bit.com/quarto/\n발표 슬라이드: http://aispiration.com/ds-authoring/ https://r2bit.com/bitSlide\n워크샵: https://choonghyunryu.github.io/workshop_lecture/\n\n학교에서 통계와 데이터과학은 어떻게 가르쳐야 할까?\n전국통계교육교사모임\n\n통그라미\nFlourish - 한스 로스링, gapminder\n통계로 통하자_웹용 - 자유학기제 수업을 위한 워크북"
-  },
-  {
     "objectID": "student.html",
     "href": "student.html",
     "title": "통계패키지",
     "section": "",
     "text": "현재 사용중인 소프트웨어 목록을 통계와 수학, 국산과 외산 소프트웨어를 정리하여 일별하면 다음과 같다.\n\n\n\n\n\n\n  \n    \n      통계/수학 소프트웨어 현황\n    \n    \n      R 사용자회 (2021)\n    \n  \n  \n    \n      구분\n      국적\n      명칭\n      웹주소\n      제작사\n      가격\n      비고\n    \n  \n  \n    통계\n한국\n이지통계\n웹사이트\nEBS MATH\n무료\n\n    통계\n한국\n통그라미\n웹사이트\n통계청, 통계교육원\n무료\n\n    통계\n외국\nSAS\n웹사이트\nSAS 인스티튜트\n상용\n\n    통계\n외국\nIBM SPSS\n웹사이트\nSPSS Inc.\n상용\nIBM 인수 2009년\n    통계\n미국\nMinitab\n웹사이트\nMinitab, Inc.\n상용\n\n    통계\n한국\neStat\n웹사이트\n이정진\n무료\n숭실대 이정진 교수 제작\n    수학\n외국\nGrafEq\n웹사이트\nPedagouery Software Inc\n상용\n\n    수학\n외국\nFathom\n웹사이트\nFathom\n상용\n\n    수학\n외국\n지오지브라\n웹사이트\nGeoGebra\n무료\n\n    수학\n외국\nGSP51\n웹사이트\nMcGraw-Hill\n상용\n단종 2019\n    수학\n외국\nCabri Geometry\n웹사이트\nCabrilog\n상용\n유럽\n    수학\n외국\nDesmos\n웹사이트\nDesmos\n상용\n자바스크립트, 스타트업\n    수학\n한국\n알지오매스\n웹사이트\n한국과학창의재단\n무료\n\n    수학\n외국\n메이플\n웹사이트\nMapleSoft\n상용\n\n    수학\n외국\n매스매티카\n웹사이트\nWolfram\n상용\n\n    수학\n외국\nOctave\n웹사이트\n존 W. 이튼\n무료\nGNU GPL\n  \n  \n  \n    \n      1 GSP5: Geometer’s Sketchpad\n    \n  \n\n\n\n\n출처: 공학 소프트웨어 현황"
+  },
+  {
+    "objectID": "student.html#통계패키지---bitstat",
+    "href": "student.html#통계패키지---bitstat",
+    "title": "통계패키지",
+    "section": "2 통계패키지 - BitStat",
+    "text": "2 통계패키지 - BitStat\n\n개요"
+  },
+  {
+    "objectID": "student.html#데모-화면",
+    "href": "student.html#데모-화면",
+    "title": "통계패키지",
+    "section": "3 데모 화면",
+    "text": "3 데모 화면"
+  },
+  {
+    "objectID": "student.html#bitstat",
+    "href": "student.html#bitstat",
+    "title": "통계패키지",
+    "section": "4 BitStat",
+    "text": "4 BitStat\n바로가기 - 실행"
   },
   {
     "objectID": "teacher.html",
@@ -70,11 +35,46 @@
     "text": "hsData 패키지는 통계청 통계교육원 고등학교 실용통계 교과서에 실린 데이터를 담고 있는 데이터 패키지입니다. 데이터는 통그라미 통계 패키지에 내장되어 있습니다.\n :::{.callout-warning}\n파머펭귄 데이터셋\n미국에서 “George Floyd”가 경찰에 의해 살해되면서 촉발된 “Black Lives Matter” 운동은 아프리카계 미국인을 향한 폭력과 제도적 인종주의에 반대하는 사회운동이다. 한국에서도 소수 정당인 정의당에서 여당 의원 176명 중 누가?…차별금지법 발의할 ’의인’을 구합니다로 기사로 낼 정도로 적극적으로 나서고 있다.\n데이터 과학에서 최근 R.A. Fisher의 과거 저술한 “The genetical theory of natural selection” 우생학(Eugenics) 대한 관점2이 논란이 되면서 R 데이터 과학의 첫 데이터셋으로 붓꽃 iris 데이터를 다른 데이터, 즉 펭귄 데이터로 대체하는 움직임이 활발히 전개되고 있다. palmerpenguins 데이터셋이 대안으로 많은 호응을 얻고 있다.\n:::"
   },
   {
+    "objectID": "teacher.html#통계-소프트웨어",
+    "href": "teacher.html#통계-소프트웨어",
+    "title": "통계교육용",
+    "section": "2 통계 소프트웨어",
+    "text": "2 통계 소프트웨어\n통계를 처음 접하는 누구나 쉽지 않은 개념이고 데이터와 통계에 대한 전반적인 내용을 전체적으로 보여주는 방식도 새롭게 도입되고 있습니다.\n\n소스코드 저장소"
+  },
+  {
+    "objectID": "teacher.html#인터랙티브-통계",
+    "href": "teacher.html#인터랙티브-통계",
+    "title": "통계교육용",
+    "section": "3 인터랙티브 통계",
+    "text": "3 인터랙티브 통계\nUI에서 입력값을 선택하면서 시각화하는 데이터가 달라지기 때문에 이를 반영하여 인터랙티브 대상 시각화 데이터를 제작한다.\n\n\n\n\ndata = FileAttachment(\"data/palmer-penguins.csv\").csv({ typed: true })\n\nfiltered = data.filter(function(penguin) {\n  return bill_length_min < penguin.bill_length_mm &&\n         islands.includes(penguin.island);\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof bill_length_min = Inputs.range(\n  [32, 50], \n  {value: 35, step: 1, label: \"Bill length (min):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"Torgersen\", \"Biscoe\", \"Dream\"], \n  { value: [\"Torgersen\", \"Biscoe\"], \n    label: \"Islands:\"\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n시각화표\n\n\n\nPlot.rectY(filtered, \n  Plot.binX(\n    {y: \"count\"}, \n    {x: \"body_mass_g\", fill: \"species\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"sex\",\n      y: \"species\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n\n\n\n\n\n\n\n\n\nInputs.table(filtered)"
+  },
+  {
     "objectID": "thesis.html",
     "href": "thesis.html",
     "title": "통계 논문",
     "section": "",
     "text": "논문작성의 가장 핵심적인 사항은 기본 이론적 배경을 바탕으로 유의미한 새로운 주장 즉, 가설을 제시하고 가설이 사실로 증명될 경우 갖는 의미가 새로운 기여를 한다는 것이 아주 높은 고도에서 바라본 논문의 대략적인 개요가 될 것이다.\n이 지점에서 제시한 가설을 증명하는 방법에 여러가지 갈레가 있을 것이며 그 중 데이터를 바탕으로 가설이 맞다는 것을 증명하는 방식을 취하게 된다.\n귀무가설(\\(H_0\\))은 흔히 회의적인 시각 혹은 검정해야 되는 주장을 나타낸다. 대립가설 (\\(H_A\\))은 고려중인 대립 주장을 나타내고, 흔히 가능한 모수 값의 범위로 나타낸다. 귀무가설은 흔히 회의적인 자세 혹은 차이 없음 관점을 나타낸다. 대립가설은 흔히 변화가 있다는 가능성처럼 새로운 관점을 나타낸다.\n\n\n\n\n\n\nNote\n\n\n\n가설 검정 얼개(hypothesis testing framework)\n대립가설(\\(H_A\\))을 옹호하는 증거가 강력해서 \\(H_A\\) 지지에 대해 (\\(H_0\\))를 거절하지 않는다면, 회의론자는 귀무가설(\\(H_0\\))를 기각하지 않을 것이다.\n가설검정얼개(hypothesis testing framework)는 매우 일반적인 도구로, 재고도 않고 흔히 사용된다. 만약 어떤 사람이 다소 믿을 수 없는 주장을 한다면, 처음에는 회의적인 시각을 갖는다. 하지만, 주장을 뒷받침하는 충분한 증거가 있다면, 회의적인 시각을 파기하고 대립가설을 지지하고 귀무가설을 기각한다. 가설검정 전형적인 특징을 미국 사법체제에서도 발견할 수 있다.\n미국 법원은 피고에 대한 두가지 가능한 주장을 고려한다: 유죄이거나 무죄다. 가설검정얼개로 주장을 준비한다면, 귀무가설과 대립가설은 각각 어느 것이 될까요? \n\n\n배심원은 증거가 너무나 설득력 있어서 (강해서) 피고가 유죄라는 것에 관해서 합리적 의혹(reasonable doubt)이 없는지를 고려한다; 그런 경우에, 배심원은 결백(귀무가설)을 기각하고, 피고가 유죄(대립가설)라고 판결한다.가설검정 방식은 Frequentist와 Bayesian으로 과거 나눠졌으나 최근에는 “코딩을 통한 통계가설검정” 이 기계학습, 인공지능의 부상으로 미국 학부에서 많이 다뤄지고 있다. Frequestist 가설검정 방법론이 대세가 된 것은 RA Fisher (붓꽃 데이터 저자) 명성과 계산량이 상대적으로 다른 방법론에 비해 적어 다수 통계 패키지에 탑재되면서 보편적인 가설검정방법으로 받아들여지게 되었다.\nFrequentist 가설검정은 NHST(Null Hypothesis Significance Testing) 으로 알려져 있으며 NHST 5 단계에 대한 자세한 사항은 NEDARC, Hypothesis Testing을 참조한다.\n컴퓨터를 이용하여 수학적 사전 지식이 적게 필요하고 직관적인 이해를 통해 가설검정을 수행한다는 점에서 최근에 “코딩을 통한 통계가설검정”이 부상하고 있다.\n\nAllen Downey, http://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html\nhttp://aispiration.com/statistics/stat-inference.html\ntidymodels - infer : https://infer.tidymodels.org/"
+  },
+  {
+    "objectID": "thesis.html#가설검정-방법",
+    "href": "thesis.html#가설검정-방법",
+    "title": "통계 논문",
+    "section": "2 가설검정 방법",
+    "text": "2 가설검정 방법\n\n귀무가설 설정\n대립가설 설정\n유의수준 설정\n검정통계량과 P-값 도출\n결론"
+  },
+  {
+    "objectID": "thesis.html#소프트웨어",
+    "href": "thesis.html#소프트웨어",
+    "title": "통계 논문",
+    "section": "3 소프트웨어",
+    "text": "3 소프트웨어\n\n오픈 가설검정 소프트웨어"
+  },
+  {
+    "objectID": "thesis.html#통계-소프트웨어",
+    "href": "thesis.html#통계-소프트웨어",
+    "title": "통계 논문",
+    "section": "4 통계 소프트웨어",
+    "text": "4 통계 소프트웨어\n\nBitSlide\n통계 국산화\n로우코드 Shiny 앱 개발"
   },
   {
     "objectID": "writing.html",
@@ -112,20 +112,6 @@
     "text": "4 과학문서 저작\n\n심각한 현재상황\n마크다운 기초\n고급 마크다운\n문서저작 실무\n수학 수식"
   },
   {
-    "objectID": "writing.html#사례-한국-r-컨퍼런스2021",
-    "href": "writing.html#사례-한국-r-컨퍼런스2021",
-    "title": "디지털 글쓰기",
-    "section": "5 사례: 한국 R 컨퍼런스(2021)",
-    "text": "5 사례: 한국 R 컨퍼런스(2021)\n\n컨퍼런스 웹사이트\n컨퍼런스 전 기획\n\n컨퍼런스 포스터\n컨퍼런스 후원\n\n컨퍼런스 본 행사\n\n발표 슬라이드\n발표 템플릿\n\n컨퍼런스 후 설문\n\n설문조사 보고서\n\n메이커 활동\n\n탄소중립 신재생 에너지 캠프"
-  },
-  {
-    "objectID": "writing.html#디지털-글쓰기-앱",
-    "href": "writing.html#디지털-글쓰기-앱",
-    "title": "디지털 글쓰기",
-    "section": "6 디지털 글쓰기 앱",
-    "text": "6 디지털 글쓰기 앱\n\nhttp://r2bit.ddns.net/"
-  },
-  {
     "objectID": "writing.html#사례-한국-r-컨퍼런스",
     "href": "writing.html#사례-한국-r-컨퍼런스",
     "title": "디지털 글쓰기",
@@ -133,59 +119,10 @@
     "text": "5 사례: 한국 R 컨퍼런스\n\n컨퍼런스 웹사이트\n컨퍼런스 전 기획\n\n컨퍼런스 포스터\n컨퍼런스 후원\n\n컨퍼런스 본 행사\n\n발표 슬라이드\n발표 템플릿\n\n컨퍼런스 후 설문\n\n설문조사 보고서\n\n메이커 활동\n\n탄소중립 신재생 에너지 캠프"
   },
   {
-    "objectID": "thesis.html#가설검정-방법",
-    "href": "thesis.html#가설검정-방법",
-    "title": "통계 논문",
-    "section": "2 가설검정 방법",
-    "text": "2 가설검정 방법\n\n귀무가설 설정\n대립가설 설정\n유의수준 설정\n검정통계량과 P-값 도출\n결론"
-  },
-  {
-    "objectID": "thesis.html#소프트웨어",
-    "href": "thesis.html#소프트웨어",
-    "title": "통계 논문",
-    "section": "3 소프트웨어",
-    "text": "3 소프트웨어\n\n오픈 가설검정 소프트웨어"
-  },
-  {
-    "objectID": "thesis.html#통계-소프트웨어",
-    "href": "thesis.html#통계-소프트웨어",
-    "title": "통계 논문",
-    "section": "4 통계 소프트웨어",
-    "text": "4 통계 소프트웨어\n\nBitSlide\n통계 국산화\n로우코드 Shiny 앱 개발"
-  },
-  {
-    "objectID": "teacher.html#통계-소프트웨어",
-    "href": "teacher.html#통계-소프트웨어",
-    "title": "통계교육용",
-    "section": "2 통계 소프트웨어",
-    "text": "2 통계 소프트웨어\n통계를 처음 접하는 누구나 쉽지 않은 개념이고 데이터와 통계에 대한 전반적인 내용을 전체적으로 보여주는 방식도 새롭게 도입되고 있습니다.\n\n소스코드 저장소"
-  },
-  {
-    "objectID": "teacher.html#인터랙티브-통계",
-    "href": "teacher.html#인터랙티브-통계",
-    "title": "통계교육용",
-    "section": "3 인터랙티브 통계",
-    "text": "3 인터랙티브 통계\nUI에서 입력값을 선택하면서 시각화하는 데이터가 달라지기 때문에 이를 반영하여 인터랙티브 대상 시각화 데이터를 제작한다.\n\n\n\n\nkdata = FileAttachment(\"data/palmer-penguins-korean.csv\").csv({ typed: true })\n\nkfiltered = kdata.filter(function(penguin) {\n  return bill_length_min < penguin.부리_길이 &&\n         섬이름.includes(penguin.섬이름);\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof bill_length_min = Inputs.range(\n  [32, 50], \n  {value: 35, step: 1, label: \"부리 길이 (최소):\"}\n)\nviewof islands = Inputs.checkbox(\n  [\"토르거센\", \"비스코\", \"드림\"], \n  { value: [\"토르거센\", \"비스코\"], \n    label: \"섬이름:\"\n  }\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n시각화표\n\n\n\nPlot.rectY(kfiltered, \n  Plot.binX(\n    {y: \"count\"}, \n    {x: \"체중\", fill: \"종명칭\", thresholds: 20}\n  ))\n  .plot({\n    facet: {\n      data: filtered,\n      x: \"성별\",\n      y: \"종명칭\",\n      marginRight: 80\n    },\n    marks: [\n      Plot.frame(),\n    ]\n  }\n)\n\n\n\n\n\n\n\n\n\nInputs.table(filtered)"
-  },
-  {
-    "objectID": "student.html#통계패키지---bitstat",
-    "href": "student.html#통계패키지---bitstat",
-    "title": "통계패키지",
-    "section": "2 통계패키지 - BitStat",
-    "text": "2 통계패키지 - BitStat\n\n개요"
-  },
-  {
-    "objectID": "student.html#데모-화면",
-    "href": "student.html#데모-화면",
-    "title": "통계패키지",
-    "section": "3 데모 화면",
-    "text": "3 데모 화면"
-  },
-  {
-    "objectID": "student.html#bitstat",
-    "href": "student.html#bitstat",
-    "title": "통계패키지",
-    "section": "4 BitStat",
-    "text": "4 BitStat\n바로가기 - 실행"
+    "objectID": "writing.html#디지털-글쓰기-앱",
+    "href": "writing.html#디지털-글쓰기-앱",
+    "title": "디지털 글쓰기",
+    "section": "6 디지털 글쓰기 앱",
+    "text": "6 디지털 글쓰기 앱\n\nhttp://r2bit.ddns.net/"
   }
 ]

@@ -64,18 +64,18 @@ UI에서 입력값을 선택하면서 시각화하는 데이터가 달라지기 
 #| eval: false
 #| echo: false
 library(tidyverse)
-bitData::penguins  %>% 
-  write_csv("data/palmer-penguins-korean.csv")
+palmerpenguins::penguins  %>% 
+  write_csv("data/palmer-penguins.csv")
 ```
 
 
 ```{ojs}
 //| echo: false
-kdata = FileAttachment("data/palmer-penguins-korean.csv").csv({ typed: true })
+data = FileAttachment("data/palmer-penguins.csv").csv({ typed: true })
 
-kfiltered = kdata.filter(function(penguin) {
-  return bill_length_min < penguin.부리_길이 &&
-         섬이름.includes(penguin.섬이름);
+filtered = data.filter(function(penguin) {
+  return bill_length_min < penguin.bill_length_mm &&
+         islands.includes(penguin.island);
 })
 ```
 
@@ -86,12 +86,12 @@ kfiltered = kdata.filter(function(penguin) {
 //| panel: input
 viewof bill_length_min = Inputs.range(
   [32, 50], 
-  {value: 35, step: 1, label: "부리 길이 (최소):"}
+  {value: 35, step: 1, label: "Bill length (min):"}
 )
 viewof islands = Inputs.checkbox(
-  ["토르거센", "비스코", "드림"], 
-  { value: ["토르거센", "비스코"], 
-    label: "섬이름:"
+  ["Torgersen", "Biscoe", "Dream"], 
+  { value: ["Torgersen", "Biscoe"], 
+    label: "Islands:"
   }
 )
 ```
@@ -103,16 +103,16 @@ viewof islands = Inputs.checkbox(
 
 ```{ojs}
 //| echo: false
-Plot.rectY(kfiltered, 
+Plot.rectY(filtered, 
   Plot.binX(
     {y: "count"}, 
-    {x: "체중", fill: "종명칭", thresholds: 20}
+    {x: "body_mass_g", fill: "species", thresholds: 20}
   ))
   .plot({
     facet: {
       data: filtered,
-      x: "성별",
-      y: "종명칭",
+      x: "sex",
+      y: "species",
       marginRight: 80
     },
     marks: [
