@@ -8,7 +8,7 @@
 
 <meta name="author" content="이광춘">
 <meta name="dcterms.date" content="2022-10-25">
-<meta name="description" content="디지털 통계 교육">
+<meta name="description" content="디지털 통계 실습">
 
 <title>통계 패키지 - 통계패키지</title>
 <style>
@@ -42,6 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,16 +110,20 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu--1">    
         <li>
+    <a class="dropdown-item" href="./writing.html">
+ <span class="dropdown-text">디지털 글쓰기-공용</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./thesis.html">
- <span class="dropdown-text">통계논문</span></a>
+ <span class="dropdown-text">통계논문-석박사</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./teacher.html">
- <span class="dropdown-text">통계교육용</span></a>
+ <span class="dropdown-text">통계교육용-교사용</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./student.html">
- <span class="dropdown-text">통계패키지</span></a>
+ <span class="dropdown-text">통계패키지-학생용</span></a>
   </li>  
     </ul>
   </li>
@@ -137,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
       <h1 class="title">통계패키지</h1>
                   <div>
         <div class="description">
-          디지털 통계 교육
+          디지털 통계 실습
         </div>
       </div>
                 </div>
@@ -181,7 +188,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">목차</h2>
    
   <ul class="collapse">
-  <li><a href="#통계패키지---bitstat" id="toc-통계패키지---bitstat" class="nav-link active" data-scroll-target="#통계패키지---bitstat"><span class="toc-section-number">1</span>  통계패키지 - <code>BitStat</code></a></li>
+  <li><a href="#공학-소프트웨어-현황" id="toc-공학-소프트웨어-현황" class="nav-link active" data-scroll-target="#공학-소프트웨어-현황"><span class="toc-section-number">1</span>  공학 소프트웨어 현황</a></li>
+  <li><a href="#통계패키지---bitstat" id="toc-통계패키지---bitstat" class="nav-link" data-scroll-target="#통계패키지---bitstat"><span class="toc-section-number">2</span>  통계패키지 - <code>BitStat</code></a></li>
+  <li><a href="#데모-화면" id="toc-데모-화면" class="nav-link" data-scroll-target="#데모-화면"><span class="toc-section-number">3</span>  데모 화면</a></li>
+  <li><a href="#bitstat" id="toc-bitstat" class="nav-link" data-scroll-target="#bitstat"><span class="toc-section-number">4</span>  <code>BitStat</code></a></li>
   </ul>
 </nav>
     </div>
@@ -191,8 +201,580 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="통계패키지---bitstat" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> 통계패키지 - <code>BitStat</code></h1>
+<section id="공학-소프트웨어-현황" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="공학-소프트웨어-현황"><span class="header-section-number">1</span> 공학 소프트웨어 현황</h2>
+<p>현재 사용중인 소프트웨어 목록을 통계와 수학, 국산과 외산 소프트웨어를 정리하여 일별하면 다음과 같다.</p>
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="ekdbedfjsf" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+:where(#ekdbedfjsf) .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+:where(#ekdbedfjsf) .gt_heading {
+  background-color: #756BB1;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#ekdbedfjsf) .gt_title {
+  color: #FFFFFF;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+:where(#ekdbedfjsf) .gt_subtitle {
+  color: #FFFFFF;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+:where(#ekdbedfjsf) .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#ekdbedfjsf) .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#ekdbedfjsf) .gt_col_heading {
+  color: #333333;
+  background-color: #BCBDDC;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+:where(#ekdbedfjsf) .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #BCBDDC;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+:where(#ekdbedfjsf) .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+:where(#ekdbedfjsf) .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+:where(#ekdbedfjsf) .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+:where(#ekdbedfjsf) .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+:where(#ekdbedfjsf) .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+:where(#ekdbedfjsf) .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+:where(#ekdbedfjsf) .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+:where(#ekdbedfjsf) .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+:where(#ekdbedfjsf) .gt_stub {
+  color: #333333;
+  background-color: #BCBDDC;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ekdbedfjsf) .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+:where(#ekdbedfjsf) .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+:where(#ekdbedfjsf) .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ekdbedfjsf) .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+:where(#ekdbedfjsf) .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+:where(#ekdbedfjsf) .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#ekdbedfjsf) .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ekdbedfjsf) .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+:where(#ekdbedfjsf) .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+:where(#ekdbedfjsf) .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+:where(#ekdbedfjsf) .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#ekdbedfjsf) .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ekdbedfjsf) .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+:where(#ekdbedfjsf) .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+:where(#ekdbedfjsf) .gt_left {
+  text-align: left;
+}
+
+:where(#ekdbedfjsf) .gt_center {
+  text-align: center;
+}
+
+:where(#ekdbedfjsf) .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+:where(#ekdbedfjsf) .gt_font_normal {
+  font-weight: normal;
+}
+
+:where(#ekdbedfjsf) .gt_font_bold {
+  font-weight: bold;
+}
+
+:where(#ekdbedfjsf) .gt_font_italic {
+  font-style: italic;
+}
+
+:where(#ekdbedfjsf) .gt_super {
+  font-size: 65%;
+}
+
+:where(#ekdbedfjsf) .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 75%;
+  vertical-align: 0.4em;
+}
+
+:where(#ekdbedfjsf) .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+:where(#ekdbedfjsf) .gt_indent_1 {
+  text-indent: 5px;
+}
+
+:where(#ekdbedfjsf) .gt_indent_2 {
+  text-indent: 10px;
+}
+
+:where(#ekdbedfjsf) .gt_indent_3 {
+  text-indent: 15px;
+}
+
+:where(#ekdbedfjsf) .gt_indent_4 {
+  text-indent: 20px;
+}
+
+:where(#ekdbedfjsf) .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table">
+  <thead class="gt_header">
+    <tr>
+      <td colspan="7" class="gt_heading gt_title gt_font_normal" style=""><strong>통계/수학 소프트웨어 현황</strong></td>
+    </tr>
+    <tr>
+      <td colspan="7" class="gt_heading gt_subtitle gt_font_normal gt_bottom_border" style="">R 사용자회 (2021)</td>
+    </tr>
+  </thead>
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">구분</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">국적</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col">명칭</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col">웹주소</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col">제작사</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">가격</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">비고</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">통계</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">한국</td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;">이지통계</td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;"><a href="https://ebsmath.co.kr/easyTong">웹사이트</a></td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;">EBS MATH</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">무료</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;"></td></tr>
+    <tr><td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">통계</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">한국</td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;">통그라미</td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;"><a href="https://tong.kostat.go.kr/">웹사이트</a></td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;">통계청, 통계교육원</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">무료</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;"></td></tr>
+    <tr><td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">통계</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">외국</td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;">SAS</td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;"><a href="https://www.sas.com/ko_kr/home.html">웹사이트</a></td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;">SAS 인스티튜트</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">상용</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;"></td></tr>
+    <tr><td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">통계</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">외국</td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;">IBM SPSS</td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;"><a href="https://www.ibm.com/products/spss-statistics">웹사이트</a></td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;">SPSS Inc.</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">상용</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">IBM 인수 2009년</td></tr>
+    <tr><td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">통계</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">미국</td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;">Minitab</td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;"><a href="https://www.minitab.com/ko-kr/">웹사이트</a></td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;">Minitab, Inc.</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">상용</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;"></td></tr>
+    <tr><td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">통계</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">한국</td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;">eStat</td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;"><a href="http://estat.me/">웹사이트</a></td>
+<td class="gt_row gt_center" style="background-color: #F5CB42; font-weight: bold;">이정진</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">무료</td>
+<td class="gt_row gt_left" style="background-color: #F5CB42; font-weight: bold;">숭실대 이정진 교수 제작</td></tr>
+    <tr><td class="gt_row gt_left">수학</td>
+<td class="gt_row gt_left">외국</td>
+<td class="gt_row gt_center">GrafEq</td>
+<td class="gt_row gt_center"><a href="http://www.peda.com/">웹사이트</a></td>
+<td class="gt_row gt_center">Pedagouery Software Inc</td>
+<td class="gt_row gt_left">상용</td>
+<td class="gt_row gt_left"></td></tr>
+    <tr><td class="gt_row gt_left">수학</td>
+<td class="gt_row gt_left">외국</td>
+<td class="gt_row gt_center">Fathom</td>
+<td class="gt_row gt_center"><a href="https://www.fathomhq.com/">웹사이트</a></td>
+<td class="gt_row gt_center">Fathom</td>
+<td class="gt_row gt_left">상용</td>
+<td class="gt_row gt_left"></td></tr>
+    <tr><td class="gt_row gt_left">수학</td>
+<td class="gt_row gt_left">외국</td>
+<td class="gt_row gt_center">지오지브라</td>
+<td class="gt_row gt_center"><a href="https://www.geogebra.org/">웹사이트</a></td>
+<td class="gt_row gt_center">GeoGebra</td>
+<td class="gt_row gt_left">무료</td>
+<td class="gt_row gt_left"></td></tr>
+    <tr><td class="gt_row gt_left">수학</td>
+<td class="gt_row gt_left">외국</td>
+<td class="gt_row gt_center">GSP5<sup class="gt_footnote_marks">1</sup></td>
+<td class="gt_row gt_center"><a href="https://www.dynamicgeometry.com/">웹사이트</a></td>
+<td class="gt_row gt_center">McGraw-Hill</td>
+<td class="gt_row gt_left">상용</td>
+<td class="gt_row gt_left">단종 2019</td></tr>
+    <tr><td class="gt_row gt_left">수학</td>
+<td class="gt_row gt_left">외국</td>
+<td class="gt_row gt_center">Cabri Geometry</td>
+<td class="gt_row gt_center"><a href="https://www.cabri.com/en/">웹사이트</a></td>
+<td class="gt_row gt_center">Cabrilog</td>
+<td class="gt_row gt_left">상용</td>
+<td class="gt_row gt_left">유럽</td></tr>
+    <tr><td class="gt_row gt_left">수학</td>
+<td class="gt_row gt_left">외국</td>
+<td class="gt_row gt_center">Desmos</td>
+<td class="gt_row gt_center"><a href="https://www.desmos.com/">웹사이트</a></td>
+<td class="gt_row gt_center">Desmos</td>
+<td class="gt_row gt_left">상용</td>
+<td class="gt_row gt_left">자바스크립트, 스타트업</td></tr>
+    <tr><td class="gt_row gt_left">수학</td>
+<td class="gt_row gt_left">한국</td>
+<td class="gt_row gt_center">알지오매스</td>
+<td class="gt_row gt_center"><a href="https://www.algeomath.kr/">웹사이트</a></td>
+<td class="gt_row gt_center">한국과학창의재단</td>
+<td class="gt_row gt_left">무료</td>
+<td class="gt_row gt_left"></td></tr>
+    <tr><td class="gt_row gt_left">수학</td>
+<td class="gt_row gt_left">외국</td>
+<td class="gt_row gt_center">메이플</td>
+<td class="gt_row gt_center"><a href="https://www.maplesoft.com/products/maple/">웹사이트</a></td>
+<td class="gt_row gt_center">MapleSoft</td>
+<td class="gt_row gt_left">상용</td>
+<td class="gt_row gt_left"></td></tr>
+    <tr><td class="gt_row gt_left">수학</td>
+<td class="gt_row gt_left">외국</td>
+<td class="gt_row gt_center">매스매티카</td>
+<td class="gt_row gt_center"><a href="https://www.wolfram.com/mathematica/">웹사이트</a></td>
+<td class="gt_row gt_center">Wolfram</td>
+<td class="gt_row gt_left">상용</td>
+<td class="gt_row gt_left"></td></tr>
+    <tr><td class="gt_row gt_left">수학</td>
+<td class="gt_row gt_left">외국</td>
+<td class="gt_row gt_center">Octave</td>
+<td class="gt_row gt_center"><a href="https://www.gnu.org/software/octave/">웹사이트</a></td>
+<td class="gt_row gt_center">존 W. 이튼</td>
+<td class="gt_row gt_left">무료</td>
+<td class="gt_row gt_left">GNU GPL</td></tr>
+  </tbody>
+  
+  <tfoot class="gt_footnotes">
+    <tr>
+      <td class="gt_footnote" colspan="7"><sup class="gt_footnote_marks">1</sup> GSP5: Geometer’s Sketchpad</td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+</div>
+</div>
+<p>출처: <a href="https://r2bit.com/onboard/tong.html">공학 소프트웨어 현황</a></p>
+</section>
+<section id="통계패키지---bitstat" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="통계패키지---bitstat"><span class="header-section-number">2</span> 통계패키지 - <code>BitStat</code></h2>
+<ul>
+<li><a href="https://aispiration.com/ds-authoring/bit_stat.html">개요</a></li>
+</ul>
+</section>
+<section id="데모-화면" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="데모-화면"><span class="header-section-number">3</span> 데모 화면</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/BitStat_quick.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/BitStat_quick.gif" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</section>
+<section id="bitstat" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="bitstat"><span class="header-section-number">4</span> <code>BitStat</code></h2>
+<p><a href="http://bitstat.shinyapps.io/bitstat">바로가기 - 실행</a></p>
 
 
 </section>
@@ -332,6 +914,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","loop":true,"selector":".lightbox","descPosition":"bottom"});</script>
 
 
 

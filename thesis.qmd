@@ -27,7 +27,7 @@ editor_options:
 ---
 
 
-# 통계 검정
+## 통계 검정
 
 논문작성의 가장 핵심적인 사항은 기본 이론적 배경을 바탕으로 유의미한 새로운 주장 즉, 가설을 제시하고 가설이 사실로 증명될 경우 갖는 의미가 새로운 기여를 한다는 것이 아주 높은 고도에서 바라본 논문의 대략적인 개요가 될 것이다.
 
@@ -61,7 +61,7 @@ editor_options:
 - [http://aispiration.com/statistics/stat-inference.html](http://aispiration.com/statistics/stat-inference.html)
 - tidymodels - infer : [https://infer.tidymodels.org/](https://infer.tidymodels.org/)
     
-# 가설검정 방법
+## 가설검정 방법
 
 1. 귀무가설 설정
 1. 대립가설 설정
@@ -69,7 +69,15 @@ editor_options:
 1. 검정통계량과 P-값 도출
 1. 결론
 
-# 가설검정 소프트웨어
+## 소프트웨어
 
 - [오픈 가설검정 소프트웨어](https://r2bit.shinyapps.io/infer_shiny/)
+
+## 통계 소프트웨어
+
+- [BitSlide](https://r2bit.com/bitSlide/)
+- [통계 국산화](http://aispiration.com/data-science/ds-korean-stat-pkg.html)
+- [로우코드 Shiny 앱 개발](https://r2bit.com/bitSlide/slideshow/202211-meetup/#/title-slide)
+
+
 

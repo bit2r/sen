@@ -1,6 +1,6 @@
 ---
 title: "통계패키지"
-description: 디지털 통계 교육
+description: 디지털 통계 실습
 date: today # 날짜 설정: now, last-modified
 author:
   - name: 이광춘
@@ -24,11 +24,87 @@ format:
 link-citations: yes
 editor_options: 
   chunk_output_type: console
+filters:
+   - lightbox
+lightbox: auto    
 ---
 
-# 통계패키지 - `BitStat`
+## 공학 소프트웨어 현황
+
+현재 사용중인 소프트웨어 목록을 통계와 수학, 국산과 외산 소프트웨어를 정리하여 일별하면 다음과 같다.
 
 
+```{r}
+#| echo: false
+#| warning: false
+
+library(tidyverse)
+library(gt)
+eng_tbl <- tribble(~"구분", ~"국적", ~"명칭", ~"웹주소", ~"제작사", ~"가격", ~"비고",
+                  "통계", "한국", "이지통계", "https://ebsmath.co.kr/easyTong", "EBS MATH", "무료", "",
+                  "통계",  "한국", "통그라미", "https://tong.kostat.go.kr/", "통계청, 통계교육원", "무료", "",
+                  "수학", "외국", "GrafEq", "http://www.peda.com/", "Pedagouery Software Inc", "상용", "",
+                  "수학",  "외국", "Fathom", "https://www.fathomhq.com/", "Fathom", "상용", "",
+                  "수학",  "외국",  "지오지브라", "https://www.geogebra.org/", "GeoGebra", "무료", "",
+                  "수학",  "외국",  "GSP5", "https://www.dynamicgeometry.com/", "McGraw-Hill", "상용", "단종 2019",
+                  "수학",  "외국",  "Cabri Geometry", "https://www.cabri.com/en/", "Cabrilog", "상용", "유럽",
+                  "수학",  "외국",  "Desmos", "https://www.desmos.com/", "Desmos", "상용", "자바스크립트, 스타트업",
+                  "수학",  "한국", "알지오매스", "https://www.algeomath.kr/", "한국과학창의재단", "무료",  "",
+                  "수학",  "외국",  "메이플", "https://www.maplesoft.com/products/maple/", "MapleSoft", "상용",  "",
+                  "수학",  "외국",  "매스매티카", "https://www.wolfram.com/mathematica/", "Wolfram", "상용", "",
+                  "수학",  "외국",  "Octave", "https://www.gnu.org/software/octave/", "존 W. 이튼", "무료", "GNU GPL",
+                  "통계", "외국", "SAS", "https://www.sas.com/ko_kr/home.html", "SAS 인스티튜트", "상용", "",
+                  "통계", "외국", "IBM SPSS", "https://www.ibm.com/products/spss-statistics", "SPSS Inc.", "상용", "IBM 인수 2009년",
+                  "통계", "미국", "Minitab", "https://www.minitab.com/ko-kr/", "Minitab, Inc.", "상용", "",
+                  "통계", "한국", "eStat", "http://estat.me/", "이정진", "무료", "숭실대 이정진 교수 제작")
+eng_tbl_gt <- eng_tbl %>% 
+  mutate(
+    웹주소 = map(웹주소, ~ htmltools::a(href = .x, "웹사이트")),
+    웹주소 = map(웹주소, ~ gt::html(as.character(.x)))) %>% 
+  arrange(desc(구분)) %>% 
+  gt() %>% 
+    cols_align(
+      align = "center",
+      columns = c(명칭, 제작사)
+  ) %>% 
+  tab_header(
+    title = md("**통계/수학 소프트웨어 현황** "),
+    subtitle = md("R 사용자회 (2021)")
+  ) %>% 
+  tab_options(
+    heading.background.color = "#756bb1",
+    column_labels.background.color = "#bcbddc",
+    column_labels.font.weight = "bold",
+    stub.background.color = "#bcbddc",
+    stub.font.weight = "bold"
+  ) %>% 
+  tab_style(
+    style = list(
+      cell_fill(color = "#f5cb42"),
+      cell_text(weight = "bold")
+      ),
+    locations = cells_body(
+      rows = 구분 == '통계')
+  ) %>% 
+  tab_footnote(
+    locations = cells_body(columns = 명칭, rows = 명칭 == "GSP5"),
+    footnote = md("GSP5: Geometer’s Sketchpad")
+  )
+eng_tbl_gt
+```
+
+출처: [공학 소프트웨어 현황](https://r2bit.com/onboard/tong.html)
 
 
+## 통계패키지 - `BitStat`
+
+- [개요](https://aispiration.com/ds-authoring/bit_stat.html)
+
+## 데모 화면
+
+![](images/BitStat_quick.gif)
+
+## `BitStat`
+
+[바로가기 - 실행](http://bitstat.shinyapps.io/bitstat)
 
