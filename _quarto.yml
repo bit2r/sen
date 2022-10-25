@@ -16,13 +16,7 @@ website:
     background: "#447099"
     left:
       - href: index.qmd
-        text: Home
-      - text: "행정업무"
-        menu:
-        - href: operation.qmd
-          text: "추진 개요"
-        - href: recruit.qmd
-          text: "참여자모집"
+        text: "들어가며"
       - text: "교재"
         menu:
         - text: "디지털 글쓰기-공용"
@@ -33,6 +27,12 @@ website:
           href: teacher.qmd
         - text: "통계패키지-학생용"
           href: student.qmd
+      - text: "행정업무"
+        menu:
+        - href: operation.qmd
+          text: "추진 개요"
+        - href: recruit.qmd
+          text: "참여자모집"
       - href: reference.qmd
         text: "관련자료"
 
