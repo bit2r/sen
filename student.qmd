@@ -1,0 +1,34 @@
+---
+title: "통계패키지"
+description: 디지털 통계 교육
+date: today # 날짜 설정: now, last-modified
+author:
+  - name: 이광춘
+    url: https://www.linkedin.com/in/kwangchunlee/
+    affiliation: 한국 R 사용자회
+    affiliation-url: https://github.com/bit2r
+title-block-banner: true
+#title-block-banner: "#562457"
+format:
+  html:
+    theme: 
+      - flatly
+      - css/quarto-fonts.css
+    code-fold: false
+    toc: true
+    toc-depth: 2
+    toc-title: 목차
+    number-sections: true
+    highlight-style: github    
+    self-contained: false
+link-citations: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+# 통계패키지 - `BitStat`
+
+
+
+
+
