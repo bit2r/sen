@@ -25,6 +25,8 @@ website:
           text: "참여자모집"
       - text: "교재"
         menu:
+        - text: "디지털 글쓰기"
+          href: writing.qmd
         - text: "통계논문"
           href: thesis.qmd
         - text: "통계교육용"

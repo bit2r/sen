@@ -108,6 +108,10 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu--1">    
         <li>
+    <a class="dropdown-item" href="./writing.html">
+ <span class="dropdown-text">디지털 글쓰기</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./thesis.html">
  <span class="dropdown-text">통계논문</span></a>
   </li>  
@@ -182,11 +186,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">목차</h2>
    
   <ul class="collapse">
-  <li><a href="#디지털-문서-제작-패러다임" id="toc-디지털-문서-제작-패러다임" class="nav-link active" data-scroll-target="#디지털-문서-제작-패러다임"><span class="toc-section-number">1</span>  디지털 문서 제작 패러다임</a></li>
-  <li><a href="#문서로-보는-민주주의" id="toc-문서로-보는-민주주의" class="nav-link" data-scroll-target="#문서로-보는-민주주의"><span class="toc-section-number">2</span>  문서로 보는 민주주의</a></li>
-  <li><a href="#디지털-문서-저작" id="toc-디지털-문서-저작" class="nav-link" data-scroll-target="#디지털-문서-저작"><span class="toc-section-number">3</span>  디지털 문서 저작</a></li>
-  <li><a href="#과학문서-저작" id="toc-과학문서-저작" class="nav-link" data-scroll-target="#과학문서-저작"><span class="toc-section-number">4</span>  과학문서 저작</a></li>
-  <li><a href="#사례-한국-r-컨퍼런스2021" id="toc-사례-한국-r-컨퍼런스2021" class="nav-link" data-scroll-target="#사례-한국-r-컨퍼런스2021"><span class="toc-section-number">5</span>  사례: 한국 R 컨퍼런스(2021)</a></li>
+  <li><a href="#통계-검정" id="toc-통계-검정" class="nav-link active" data-scroll-target="#통계-검정"><span class="toc-section-number">1</span>  통계 검정</a></li>
+  <li><a href="#가설검정-방법" id="toc-가설검정-방법" class="nav-link" data-scroll-target="#가설검정-방법"><span class="toc-section-number">2</span>  가설검정 방법</a></li>
+  <li><a href="#가설검정-소프트웨어" id="toc-가설검정-소프트웨어" class="nav-link" data-scroll-target="#가설검정-소프트웨어"><span class="toc-section-number">3</span>  가설검정 소프트웨어</a></li>
   </ul>
 </nav>
     </div>
@@ -196,73 +198,50 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="callout-warning callout callout-style-default callout-captioned">
+<section id="통계-검정" class="level1 page-columns page-full" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> 통계 검정</h1>
+<p>논문작성의 가장 핵심적인 사항은 기본 이론적 배경을 바탕으로 유의미한 새로운 주장 즉, 가설을 제시하고 가설이 사실로 증명될 경우 갖는 의미가 새로운 기여를 한다는 것이 아주 높은 고도에서 바라본 논문의 대략적인 개요가 될 것이다.</p>
+<p>이 지점에서 제시한 가설을 증명하는 방법에 여러가지 갈레가 있을 것이며 그 중 데이터를 바탕으로 가설이 맞다는 것을 증명하는 방식을 취하게 된다.</p>
+<p>귀무가설(<span class="math inline">\(H_0\)</span>)은 흔히 회의적인 시각 혹은 검정해야 되는 주장을 나타낸다. 대립가설 (<span class="math inline">\(H_A\)</span>)은 고려중인 대립 주장을 나타내고, 흔히 가능한 모수 값의 범위로 나타낸다. 귀무가설은 흔히 회의적인 자세 혹은 차이 없음 관점을 나타낸다. 대립가설은 흔히 변화가 있다는 가능성처럼 새로운 관점을 나타낸다.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-caption-container flex-fill">
-Warning
+Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<ul>
-<li><a href="https://r2bit.com/quarto/quarto_about.html">논문 저작 (Quarto)</a></li>
-</ul>
+<p><strong>가설 검정 얼개(hypothesis testing framework)</strong></p>
+<p>대립가설(<span class="math inline">\(H_A\)</span>)을 옹호하는 증거가 강력해서 <span class="math inline">\(H_A\)</span> 지지에 대해 (<span class="math inline">\(H_0\)</span>)를 거절하지 않는다면, 회의론자는 귀무가설(<span class="math inline">\(H_0\)</span>)를 기각하지 않을 것이다.</p>
+<p>가설검정얼개(hypothesis testing framework)는 매우 일반적인 도구로, 재고도 않고 흔히 사용된다. 만약 어떤 사람이 다소 믿을 수 없는 주장을 한다면, 처음에는 회의적인 시각을 갖는다. 하지만, 주장을 뒷받침하는 충분한 증거가 있다면, 회의적인 시각을 파기하고 대립가설을 지지하고 귀무가설을 기각한다. 가설검정 전형적인 특징을 미국 사법체제에서도 발견할 수 있다.</p>
+<p>미국 법원은 피고에 대한 두가지 가능한 주장을 고려한다: 유죄이거나 무죄다. 가설검정얼개로 주장을 준비한다면, 귀무가설과 대립가설은 각각 어느 것이 될까요? </p>
 </div>
 </div>
-<section id="디지털-문서-제작-패러다임" class="level1 page-columns page-full" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> 디지털 문서 제작 패러다임</h1>
-<p>신속하고 빠르게 누구나 짧은 학습을 통해서 문서를 저작하고 출판할 수 있는 방식으로 인기를 얻은 아래한글 혹은 MS워드 워드프로세서를 사용하는데 이는 <strong>위지위그(WYSIWYG: What You See Is What You Get, “보는 대로 얻는다”)</strong>에 기초한 것으로 문서 편집 과정에서 화면에 포맷된 낱말, 문장이 출력물과 동일하게 나오는 방식이다. 이전 타자기 대비 경쟁력이 있었고 이를 바탕으로 문서편집기 소프트웨어가 대세로 떠올랐다.</p>
-<p>위지윅의 대척점에 있는 것이 <strong>위지윔(WYSIWYM, What You See Is What You Mean)</strong>으로 대표적인 것인 <span class="math inline">\(\LaTeX\)</span> 으로 구조화된 방식으로 문서를 작성하면 컴파일을 통해서 최종 문서가 미려한 출판가능한 PDF, PS, DVI 등 확장자를 갖는 출판결과물을 얻을 수 있다.</p>
-<p><span class="math inline">\(\LaTeX\)</span>이 갖는 장점은 이제 프로그래밍 코드(R/파이썬/SQL/쉘스크립트/자바스크립트 등)을 문서저작에 포함되며 <strong>literate programming</strong> 패러다임이 대세로 떠올랐고 현존하는 다양한 문서저작 문제에 대한 응답으로 자리를 매김하고 있다.</p>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">이미지 출처: http://www.cbinews.co.kr/news/articleView.html?idxno=36859</span></div></div>
-<p><img src="images/digital-writing-paradigm-shift.png" class="img-fluid"></p>
-</section>
-<section id="문서로-보는-민주주의" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> 문서로 보는 민주주의</h1>
-<p>대한민국은 권력을 입법권, 행정권, 사법권으로 나눠 권력을 나누었다. 세부적으보 보면 다소 차이는 있겠지만 법을 만드는 것은 결국 문서를 저작하는 것이고 대한민국 정부는 법에 담긴 문서를 실행하는 기관이고 사법부는 법 문서를 해석하는 기관으로 볼 수 있다. 결국 민주주의는 문서를 기반으로 존립하는 사회체계라고 볼 수 있다. 최근 들어 인공지능이 부상하면서 문서저작을 보조하던 수단에서 이제는 사람보다 더 나은 통찰력을 보이는 분야도 속속 등장하고 있다. 이런 측면에서 인공지능 기계를 현 민주주의 체계 내에 어떻게 녹여낼 것인지 관심이 높아지고 있다.</p>
-<p><img src="images/three-pillar.png" class="img-fluid"></p>
-</section>
-<section id="디지털-문서-저작" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> 디지털 문서 저작</h1>
-<p>과거 둘로 쪼개져서 과학기술 문서저작 즉 논문 등은 <span class="math inline">\(\LaTeX\)</span> 기반 위지윔(WYSIWYM) 패러다임이 확고한 자리를 잡았지만 위지위그(WYSIWYG) 패러다임 기반 아래한글 워드와 같은 문서저작편집기 성능이 높아지면서 사실상 둘 사이 경계도 허물어졌다.</p>
-<p>하지만, 과학기술 논문 저작에 진실성, 재현성 등이 강조되고 빅데이터 기반 과학연구가 큰 성과를 보이고 프로그래밍이 과학기술 논문 저작에 주요한 역할을 하면서 이런 추세를 반영한 과학기술 저작 패러다임이 떠오르고 있다.</p>
-<p>이러한 추세를 반영한 도구의 발전도 함께 이뤄지면서 과학기술 저작은 물론 거의 모든 문서 저작분야에 큰 변화가 일어나고 있다.</p>
-<p><img src="images/digital-writing.gif" class="img-fluid"></p>
-</section>
-<section id="과학문서-저작" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> 과학문서 저작</h1>
+<div class="no-row-height column-margin column-container"><span class="callout-margin-content">배심원은 증거가 너무나 설득력 있어서 (강해서) 피고가 유죄라는 것에 관해서 합리적 의혹(reasonable doubt)이 없는지를 고려한다; 그런 경우에, 배심원은 결백(귀무가설)을 기각하고, 피고가 유죄(대립가설)라고 판결한다.</span></div><p>가설검정 방식은 Frequentist와 Bayesian으로 과거 나눠졌으나 최근에는 “코딩을 통한 통계가설검정” 이 기계학습, 인공지능의 부상으로 미국 학부에서 많이 다뤄지고 있다. Frequestist 가설검정 방법론이 대세가 된 것은 RA Fisher (붓꽃 데이터 저자) 명성과 계산량이 상대적으로 다른 방법론에 비해 적어 다수 통계 패키지에 탑재되면서 보편적인 가설검정방법으로 받아들여지게 되었다.</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">Frequentist 가설검정은 NHST(Null Hypothesis Significance Testing) 으로 알려져 있으며 NHST 5 단계에 대한 자세한 사항은 <a href="https://www.nedarc.org/statisticalhelp/advancedstatisticaltopics/hypothesisTesting.html">NEDARC, Hypothesis Testing</a>을 참조한다.</span></div></div>
+<p>컴퓨터를 이용하여 수학적 사전 지식이 적게 필요하고 직관적인 이해를 통해 가설검정을 수행한다는 점에서 최근에 “코딩을 통한 통계가설검정”이 부상하고 있다.</p>
 <ul>
-<li><a href="http://statkclee.github.io/modern-scientific-authoring/01-mess-kr.html">심각한 현재상황</a></li>
-<li><a href="http://statkclee.github.io/modern-scientific-authoring/02-markdown-kr.html">마크다운 기초</a></li>
-<li><a href="http://statkclee.github.io/modern-scientific-authoring/03-advanced-kr.html">고급 마크다운</a></li>
-<li><a href="http://aispiration.com/comp_document/rmarkdown-in-production.html">문서저작 실무</a></li>
-<li><a href="http://aispiration.com/comp_document/cd-latex.html">수학 수식</a></li>
+<li>Allen Downey, <a href="http://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html">http://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html</a></li>
+<li><a href="http://aispiration.com/statistics/stat-inference.html">http://aispiration.com/statistics/stat-inference.html</a></li>
+<li>tidymodels - infer : <a href="https://infer.tidymodels.org/">https://infer.tidymodels.org/</a></li>
 </ul>
 </section>
-<section id="사례-한국-r-컨퍼런스2021" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> 사례: 한국 R 컨퍼런스(2021)</h1>
+<section id="가설검정-방법" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> 가설검정 방법</h1>
+<ol type="1">
+<li>귀무가설 설정</li>
+<li>대립가설 설정</li>
+<li>유의수준 설정</li>
+<li>검정통계량과 P-값 도출</li>
+<li>결론</li>
+</ol>
+</section>
+<section id="가설검정-소프트웨어" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> 가설검정 소프트웨어</h1>
 <ul>
-<li><a href="https://github.com/tidyverse-korea/rconf">컨퍼런스 웹사이트</a></li>
-<li>컨퍼런스 전 기획
-<ul>
-<li><a href="https://github.com/tidyverse-korea/poster">컨퍼런스 포스터</a></li>
-<li><a href="https://github.com/tidyverse-korea/sponsor">컨퍼런스 후원</a></li>
-</ul></li>
-<li>컨퍼런스 본 행사
-<ul>
-<li><a href="http://aispiration.com/ds-authoring/useR-r-user-community.html#1">발표 슬라이드</a></li>
-<li><a href="https://github.com/tidyverse-korea/templates">발표 템플릿</a></li>
-</ul></li>
-<li>컨퍼런스 후 설문
-<ul>
-<li><a href="https://github.com/tidyverse-korea/rconf-2021-survey">설문조사 보고서</a></li>
-</ul></li>
-<li>기타
-<ul>
-<li><a href="https://github.com/tidyverse-korea/renewable">탄소중립 신재생 에너지 캠프</a></li>
-</ul></li>
+<li><a href="https://r2bit.shinyapps.io/infer_shiny/">오픈 가설검정 소프트웨어</a></li>
 </ul>
 
 
