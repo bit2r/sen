@@ -3,15 +3,19 @@ title: "수학교육 통계패키지"
 subtitle: "참여자 모집"
 ---
 
-# 신청
+## 신청
 
 [참여신청서](https://forms.gle/ccqTfzB7wdnuJ9ED7)
 
-# 교육과 미팅
+## 교육과 미팅
 
 - [서울 R 미트업](https://www.meetup.com/seoul-r-meetup/)
 - [한국 R 사용자회 정기모임](https://meet.google.com/krv-apoo-dks)
     - 매주 수요일 · 오후 9:00~ 10:00
+- [회의참여](https://meet.google.com/tgf-dfnu-dct)
+    - 참여신청을 하시고 승인된 분께만 Google Meet 초대장 송부드렸습니다.
 
-# 회의록
+## 회의록
 
+- [2022년 10월 28일](https://hackmd.io/GpU9h5ztSmibb8LjQ4nwYA)
+- 2022년 11월 04일

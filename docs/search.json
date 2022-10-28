@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "index.html#콘텐츠-저작",
+    "href": "index.html#콘텐츠-저작",
     "title": "수학교육 통계패키지",
-    "section": "",
-    "text": "Note\n\n\n\n\n웹사이트: https://r2bit.com/sen/\n소스코드 저장소: https://github.com/bit2r/sen"
+    "section": "콘텐츠 저작",
+    "text": "콘텐츠 저작\n\n\n\n\n\n\nNote\n\n\n\n\n웹사이트: https://r2bit.com/sen/\n소스코드 저장소: https://github.com/bit2r/sen"
   },
   {
     "objectID": "intro.html#이해당사자",
@@ -46,7 +46,7 @@
     "href": "recruit.html",
     "title": "수학교육 통계패키지",
     "section": "",
-    "text": "신청\n참여신청서\n\n\n교육과 미팅\n\n서울 R 미트업\n한국 R 사용자회 정기모임\n\n매주 수요일 · 오후 9:00~ 10:00\n\n\n\n\n회의록"
+    "text": "참여신청서"
   },
   {
     "objectID": "reference.html",
@@ -180,5 +180,19 @@
     "title": "디지털 글쓰기",
     "section": "6 디지털 글쓰기 앱",
     "text": "6 디지털 글쓰기 앱\n\nhttp://r2bit.ddns.net/"
+  },
+  {
+    "objectID": "recruit.html#교육과-미팅",
+    "href": "recruit.html#교육과-미팅",
+    "title": "수학교육 통계패키지",
+    "section": "교육과 미팅",
+    "text": "교육과 미팅\n\n서울 R 미트업\n한국 R 사용자회 정기모임\n\n매주 수요일 · 오후 9:00~ 10:00\n\n회의참여\n\n참여신청을 하시고 승인된 분께만 Google Meet 초대장 송부드렸습니다."
+  },
+  {
+    "objectID": "recruit.html#회의록",
+    "href": "recruit.html#회의록",
+    "title": "수학교육 통계패키지",
+    "section": "회의록",
+    "text": "회의록\n\n2022년 10월 28일\n2022년 11월 04일"
   }
 ]

@@ -1,7 +1,13 @@
 ---
 title: "수학교육 통계패키지"
+filters:
+   - lightbox
+lightbox: auto
 ---
 
+
+
+![](images/web-poster.jpg)
 
 ## 콘텐츠 저작
 
