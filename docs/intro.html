@@ -6,6 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="이광춘">
+<meta name="dcterms.date" content="2022-10-28">
+<meta name="description" content="디지털 글쓰기와 오픈통계패키지">
 
 <title>통계 패키지 - 수학교육 통계패키지</title>
 <style>
@@ -19,6 +22,25 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
 }
 </style>
 
@@ -81,6 +103,10 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html">
+ <span class="menu-text">홈</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./intro.html" aria-current="page">
  <span class="menu-text">들어가며</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -132,42 +158,75 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">수학교육 통계패키지</h1>
+                  <div>
+        <div class="description">
+          디지털 글쓰기와 오픈통계패키지
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading"></div>
+    
+      <div class="quarto-title-meta-contents">
+      <a href="https://www.linkedin.com/in/kwangchunlee/">이광춘</a> 
+    </div>
+      <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              <a href="https://github.com/bit2r">
+              한국 R 사용자회
+              </a>
+            </p>
+        </div>
+      </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 28, 2022</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">목차</h2>
    
-  <ul>
-  <li><a href="#이해당사자" id="toc-이해당사자" class="nav-link active" data-scroll-target="#이해당사자">이해당사자</a></li>
-  <li><a href="#도구" id="toc-도구" class="nav-link" data-scroll-target="#도구">도구</a></li>
+  <ul class="collapse">
+  <li><a href="#이해당사자" id="toc-이해당사자" class="nav-link active" data-scroll-target="#이해당사자"><span class="toc-section-number">1</span>  이해당사자</a></li>
+  <li><a href="#도구" id="toc-도구" class="nav-link" data-scroll-target="#도구"><span class="toc-section-number">2</span>  도구</a></li>
+  <li><a href="#gaise-ii" id="toc-gaise-ii" class="nav-link" data-scroll-target="#gaise-ii"><span class="toc-section-number">3</span>  GAISE II</a></li>
+  <li><a href="#gaise-ii-강조사항" id="toc-gaise-ii-강조사항" class="nav-link" data-scroll-target="#gaise-ii-강조사항"><span class="toc-section-number">4</span>  GAISE II 강조사항</a></li>
+  <li><a href="#통계적-문제-해결-프로세스" id="toc-통계적-문제-해결-프로세스" class="nav-link" data-scroll-target="#통계적-문제-해결-프로세스"><span class="toc-section-number">5</span>  통계적 문제 해결 프로세스</a></li>
+  <li><a href="#dollar-street-프로젝트" id="toc-dollar-street-프로젝트" class="nav-link" data-scroll-target="#dollar-street-프로젝트"><span class="toc-section-number">6</span>  Dollar Street 프로젝트</a></li>
+  <li><a href="#다윈-핀치새" id="toc-다윈-핀치새" class="nav-link" data-scroll-target="#다윈-핀치새"><span class="toc-section-number">7</span>  다윈 핀치새</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">수학교육 통계패키지</h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
 
 <p><img src="images/stakeholders.jpg" class="img-fluid"></p>
-<section id="이해당사자" class="level2">
-<h2 class="anchored" data-anchor-id="이해당사자">이해당사자</h2>
+<section id="이해당사자" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="이해당사자"><span class="header-section-number">1</span> 이해당사자</h2>
 <p>한국 R 사용자회에서는 통계패키지를 사용하고 있는 다양한 사용자의 요구를 충족시키기 위해 다양한 기능이 포함된 소프트웨어, 콘텐츠, 데이터, 커뮤니티를 운영하고 있습니다.</p>
 <ul>
 <li>학생: 귀납적 사고방식과 문제풀이 방식을 이해한 후에 학생 스스로 데이터를 가지고 분석을 할 수 있는 도구가 필요</li>
@@ -176,8 +235,8 @@ ul.task-list li input[type="checkbox"] {
 <li>석박사 논문: 데이터 사이언스 시대에 맞는 맞춤형 석박사 논문 제작 및 개발을 지원할 수 있는 도구가 필요</li>
 </ul>
 </section>
-<section id="도구" class="level2">
-<h2 class="anchored" data-anchor-id="도구">도구</h2>
+<section id="도구" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="도구"><span class="header-section-number">2</span> 도구</h2>
 <ul>
 <li>교사 : <a href="https://github.com/bit2r/bitStat-HS" class="uri">https://github.com/bit2r/bitStat-HS</a></li>
 <li>학생 : <a href="https://bitstat.shinyapps.io/bitstat/" class="uri">https://bitstat.shinyapps.io/bitstat/</a></li>
@@ -188,11 +247,64 @@ ul.task-list li input[type="checkbox"] {
 <li>디지털 글쓰기: <a href="http://r2bit.ddns.net/" class="uri">http://r2bit.ddns.net/</a></li>
 </ul></li>
 </ul>
+</section>
+<section id="gaise-ii" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="gaise-ii"><span class="header-section-number">3</span> GAISE II</h2>
+<p>2020년 Pre‑K‑12 통계 교육 평가 및 교육 지침: 통계 및 데이터 과학 교육을 위한 프레임워크 보고서(GAISE II)가 한국어로 번역되어 출간되었습니다.</p>
+<p><a href="https://nctm.wistia.com/medias/scmd1ls63t">Pre-K-12 Guidelines for Assessment and Instruction in Statistics Education II (GAISE II)</a></p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>저는 우리가 아이들이 마주하게 될 세상, 즉 데이터가 주도하는 세상을 준비할 책임이 있다고 믿습니다. 기본적인 데이터 유창성은 대부분의 좋은 직업에 대한 요구 사항일 뿐만 아니라 재정 지식 측면에서든, 우리 자신의 건강에 대해 좋은 선택을 하는 경우든, 또는 누구와 무엇을 믿어야 하는지 아는 것과 같이 보다 일반적으로 삶을 탐색하기 위한 요구 사항입니다.</p>
+<p>출처: Freakonomics 공동 저자인 Steve Levitt 2019년 10월 2일 팟캐스트</p>
+</div>
+</div>
+</section>
+<section id="gaise-ii-강조사항" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="gaise-ii-강조사항"><span class="header-section-number">4</span> GAISE II 강조사항</h2>
+<ol type="1">
+<li><p>통계적 문제 해결 과정 전반에 걸쳐 질문을 하는 것의 중요성(통계 조사 질문 모방, 데이터 수집 또는 고려, 데이터 분석 및 결과 해석), 그리고 이 프로세스가 데이터와 관련된 모든 연구에 대한 통계적 추론의 최전선에 남아 있는 방법</p></li>
+<li><p>다양한 데이터와 변수 유형에 대한 고려, 통계적 조사 질문에 답하는 데 도움이 되는 데이터 수집 방법 또 는 데이터 고려 방법의 신중한 계획, 데이터 수집, 정리, 질문 및 분석 프로세스의 중요성</p></li>
+<li><p>모든 유아원‑12학년 교육 수준 전반에 걸쳐 다변량 사고 포함</p></li>
+<li><p>모든 수준에서 무작위성을 수량화하는 확률적 사고의 역할</p></li>
+<li><p>현대의 통계적 실천이 기술과 얽혀 있다는 인식, 그리고 가능한 한 기술 통합의 중요성</p></li>
+<li><p>통계정보를 명확하고 정확하게 전달하는 것의 중요성 증대</p></li>
+<li><p>학교 차원에서 평가의 역할, 특히 개념적 이해를 측정하고 통계적 문제 해결 과정과 관련된 통계적 추론을 요구하는 항목</p></li>
+</ol>
+</section>
+<section id="통계적-문제-해결-프로세스" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="통계적-문제-해결-프로세스"><span class="header-section-number">5</span> 통계적 문제 해결 프로세스</h2>
+<p>I. 통계 조사 질문 공식화 II. 데이터 수집/고려 III. 데이터 분석 IV. 결과 해석</p>
+<p><img src="images/statistical-problem-solving-process.png" class="img-fluid"></p>
+</section>
+<section id="dollar-street-프로젝트" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="dollar-street-프로젝트"><span class="header-section-number">6</span> Dollar Street 프로젝트</h2>
+<p><a href="https://www.gapminder.org/">Gap Minder</a> 에서 시작한 Dollar Street 프로젝트를 통해 생활수준을 가늠할 수 있습니다.</p>
+<ul>
+<li><a href="https://www.gapminder.org/dollar-street" class="uri">https://www.gapminder.org/dollar-street</a></li>
+</ul>
+</section>
+<section id="다윈-핀치새" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="다윈-핀치새"><span class="header-section-number">7</span> 다윈 핀치새</h2>
+<p>데이터 출처: <span class="citation" data-cites="finch2013">(<a href="#ref-finch2013" role="doc-biblioref">Grant &amp; Grant, 2013</a>)</span></p>
+<p>캐글 <a href="https://www.kaggle.com/datasets/crbelhekar619/darwins-finches-evolution-dataset">Darwin’s Finches Evolution Dataset</a></p>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-finch2013" class="csl-entry" role="doc-biblioentry">
+Grant, P. R., &amp; Grant, B. R. (2013). <em>Data from: 40 years of evolution. Darwin’s finches on daphne major island</em>. Dryad. <a href="https://doi.org/10.5061/DRYAD.G6G3H">https://doi.org/10.5061/DRYAD.G6G3H</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

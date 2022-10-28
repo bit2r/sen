@@ -16,6 +16,8 @@ website:
     background: "#447099"
     left:
       - href: index.qmd
+        text: "홈"
+      - href: intro.qmd
         text: "들어가며"
       - text: "교재"
         menu:
