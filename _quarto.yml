@@ -29,12 +29,12 @@ website:
           href: teacher.qmd
         - text: "통계패키지-학생용"
           href: student.qmd
-      - text: "행정업무"
+      - text: "교육실행"
         menu:
         - href: operation.qmd
           text: "추진 개요"
-        - href: recruit.qmd
-          text: "참여자모집"
+        - href: workshop.qmd
+          text: "교원연수"
       - href: reference.qmd
         text: "관련자료"
 

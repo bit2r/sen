@@ -1,0 +1,30 @@
+---
+title: "수학교육 통계패키지"
+subtitle: "교원연수"
+---
+
+## 참여신청
+
+- [온라인 참여신청](https://forms.gle/ccqTfzB7wdnuJ9ED7)
+- [연수참여](https://meet.google.com/tgf-dfnu-dct)
+    - 참여신청을 하시고 승인된 분께만 Google Meet 초대장을 통해 연수에 참여 가능합니다.
+    
+## 교원 연수
+
+- Office Hour [한국 R 사용자회 정기모임](https://meet.google.com/krv-apoo-dks)
+  - 매주 수요일 · 오후 9:00~ 10:00
+  - 참여신청 원하시는 분은 admin@r2bit.com 으로 연락주세요.
+- [서울 R 미트업](https://www.meetup.com/seoul-r-meetup/)
+  - 서울 R 미트업에 "디지털 글쓰기 및 오픈 통계 패키지" 소모임있습니다. 소모임 참여를 원하시는 분은 admin@r2bit.com 으로 연락주세요.
+  - [11월 05일 성균관대 미트업](https://www.meetup.com/seoul-r-meetup/events/288178926/)
+  - [12월 10일 성균관대 미트업](https://www.meetup.com/seoul-r-meetup/events/289059335/)
+
+
+## 온라인 연수 강의 노트 기록
+
+- [2022년 10월 28일](https://hackmd.io/GpU9h5ztSmibb8LjQ4nwYA)
+- [2022년 11월 04일](https://hackmd.io/jgEcX19iQViK35bo1ZZYLA)
+- 2022년 11월 11일
+- 2022년 11월 18일
+- 2022년 11월 25일
+

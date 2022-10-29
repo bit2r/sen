@@ -21,6 +21,41 @@
     "text": "2 도구\n\n교사 : https://github.com/bit2r/bitStat-HS\n학생 : https://bitstat.shinyapps.io/bitstat/\n개발자: https://github.com/bit2r\n논문제작과 글쓰기\n\n통계 가설검정: https://r2bit.shinyapps.io/infer_shiny/\n디지털 글쓰기: http://r2bit.ddns.net/"
   },
   {
+    "objectID": "intro.html#gaise-ii",
+    "href": "intro.html#gaise-ii",
+    "title": "수학교육 통계패키지",
+    "section": "3 GAISE II",
+    "text": "3 GAISE II\n2020년 Pre‑K‑12 통계 교육 평가 및 교육 지침: 통계 및 데이터 과학 교육을 위한 프레임워크 보고서(GAISE II)가 한국어로 번역되어 출간되었습니다.\nPre-K-12 Guidelines for Assessment and Instruction in Statistics Education II (GAISE II)\n\n\n\n\n\n\nWarning\n\n\n\n저는 우리가 아이들이 마주하게 될 세상, 즉 데이터가 주도하는 세상을 준비할 책임이 있다고 믿습니다. 기본적인 데이터 유창성은 대부분의 좋은 직업에 대한 요구 사항일 뿐만 아니라 재정 지식 측면에서든, 우리 자신의 건강에 대해 좋은 선택을 하는 경우든, 또는 누구와 무엇을 믿어야 하는지 아는 것과 같이 보다 일반적으로 삶을 탐색하기 위한 요구 사항입니다.\n출처: Freakonomics 공동 저자인 Steve Levitt 2019년 10월 2일 팟캐스트"
+  },
+  {
+    "objectID": "intro.html#gaise-ii-강조사항",
+    "href": "intro.html#gaise-ii-강조사항",
+    "title": "수학교육 통계패키지",
+    "section": "4 GAISE II 강조사항",
+    "text": "4 GAISE II 강조사항\n\n통계적 문제 해결 과정 전반에 걸쳐 질문을 하는 것의 중요성(통계 조사 질문 모방, 데이터 수집 또는 고려, 데이터 분석 및 결과 해석), 그리고 이 프로세스가 데이터와 관련된 모든 연구에 대한 통계적 추론의 최전선에 남아 있는 방법\n다양한 데이터와 변수 유형에 대한 고려, 통계적 조사 질문에 답하는 데 도움이 되는 데이터 수집 방법 또 는 데이터 고려 방법의 신중한 계획, 데이터 수집, 정리, 질문 및 분석 프로세스의 중요성\n모든 유아원‑12학년 교육 수준 전반에 걸쳐 다변량 사고 포함\n모든 수준에서 무작위성을 수량화하는 확률적 사고의 역할\n현대의 통계적 실천이 기술과 얽혀 있다는 인식, 그리고 가능한 한 기술 통합의 중요성\n통계정보를 명확하고 정확하게 전달하는 것의 중요성 증대\n학교 차원에서 평가의 역할, 특히 개념적 이해를 측정하고 통계적 문제 해결 과정과 관련된 통계적 추론을 요구하는 항목"
+  },
+  {
+    "objectID": "intro.html#통계적-문제-해결-프로세스",
+    "href": "intro.html#통계적-문제-해결-프로세스",
+    "title": "수학교육 통계패키지",
+    "section": "5 통계적 문제 해결 프로세스",
+    "text": "5 통계적 문제 해결 프로세스\nI. 통계 조사 질문 공식화 II. 데이터 수집/고려 III. 데이터 분석 IV. 결과 해석"
+  },
+  {
+    "objectID": "intro.html#dollar-street-프로젝트",
+    "href": "intro.html#dollar-street-프로젝트",
+    "title": "수학교육 통계패키지",
+    "section": "6 Dollar Street 프로젝트",
+    "text": "6 Dollar Street 프로젝트\nGap Minder 에서 시작한 Dollar Street 프로젝트를 통해 생활수준을 가늠할 수 있습니다.\n\nhttps://www.gapminder.org/dollar-street"
+  },
+  {
+    "objectID": "intro.html#다윈-핀치새",
+    "href": "intro.html#다윈-핀치새",
+    "title": "수학교육 통계패키지",
+    "section": "7 다윈 핀치새",
+    "text": "7 다윈 핀치새\n데이터 출처: (Grant & Grant, 2013)\n캐글 Darwin’s Finches Evolution Dataset"
+  },
+  {
     "objectID": "operation.html",
     "href": "operation.html",
     "title": "수학교육 통계패키지",
@@ -40,13 +75,6 @@
     "title": "수학교육 통계패키지",
     "section": "추진 상세",
     "text": "추진 상세\n\n\n\n\n\n\n\n\n세부사업명\n세부추진내용\n비고\n\n\n\n\n통계 패키지 온보딩\n통계 처리 도구\n한글 통계 패키지 역사\n한국 R 사용자회 BitStat\n주1~2회\n\n\n공유와 협업 저작권\n상용 vs 오픈 SW\n상용 vs 공공 콘텐츠 저작권\n협업과 오픈 과학\n주1~2회\n\n\n통계 패키지 (학생)\nCLI vs GUI\n통계 데이터 이해: hsData\n기술통계와 시각화\n주1~2회\n\n\n통계 패키지 (교원)\nBitStat-HS\n데이터와 통계 핵심 개념\n귀납적 사고방식 전달\n주1~2회\n\n\n통계 패키지 (연구)\n디지털 글쓰기\n보고서와 논문 작성 자동화\nAI 시대 통계 교육 방향\n주1~2회"
-  },
-  {
-    "objectID": "recruit.html",
-    "href": "recruit.html",
-    "title": "수학교육 통계패키지",
-    "section": "",
-    "text": "참여신청서"
   },
   {
     "objectID": "reference.html",
@@ -133,6 +161,27 @@
     "text": "4 통계 소프트웨어\n\nBitSlide\n통계 국산화\n로우코드 Shiny 앱 개발"
   },
   {
+    "objectID": "workshop.html",
+    "href": "workshop.html",
+    "title": "수학교육 통계패키지",
+    "section": "",
+    "text": "온라인 참여신청\n연수참여\n\n참여신청을 하시고 승인된 분께만 Google Meet 초대장을 통해 연수에 참여 가능합니다."
+  },
+  {
+    "objectID": "workshop.html#교원-연수",
+    "href": "workshop.html#교원-연수",
+    "title": "수학교육 통계패키지",
+    "section": "교원 연수",
+    "text": "교원 연수\n\nOffice Hour 한국 R 사용자회 정기모임\n\n매주 수요일 · 오후 9:00~ 10:00\n참여신청 원하시는 분은 admin@r2bit.com 으로 연락주세요.\n\n서울 R 미트업\n\n서울 R 미트업에 “디지털 글쓰기 및 오픈 통계 패키지” 소모임있습니다. 소모임 참여를 원하시는 분은 admin@r2bit.com 으로 연락주세요.\n11월 05일 성균관대 미트업\n12월 10일 성균관대 미트업"
+  },
+  {
+    "objectID": "workshop.html#온라인-연수-강의-노트-기록",
+    "href": "workshop.html#온라인-연수-강의-노트-기록",
+    "title": "수학교육 통계패키지",
+    "section": "온라인 연수 강의 노트 기록",
+    "text": "온라인 연수 강의 노트 기록\n\n2022년 10월 28일\n2022년 11월 04일\n2022년 11월 11일\n2022년 11월 18일\n2022년 11월 25일"
+  },
+  {
     "objectID": "writing.html",
     "href": "writing.html",
     "title": "디지털 글쓰기",
@@ -180,54 +229,5 @@
     "title": "디지털 글쓰기",
     "section": "6 디지털 글쓰기 앱",
     "text": "6 디지털 글쓰기 앱\n\nhttp://r2bit.ddns.net/"
-  },
-  {
-    "objectID": "recruit.html#교육과-미팅",
-    "href": "recruit.html#교육과-미팅",
-    "title": "수학교육 통계패키지",
-    "section": "교육과 미팅",
-    "text": "교육과 미팅\n\n서울 R 미트업\n한국 R 사용자회 정기모임\n\n매주 수요일 · 오후 9:00~ 10:00\n\n회의참여\n\n참여신청을 하시고 승인된 분께만 Google Meet 초대장 송부드렸습니다."
-  },
-  {
-    "objectID": "recruit.html#회의록",
-    "href": "recruit.html#회의록",
-    "title": "수학교육 통계패키지",
-    "section": "회의록",
-    "text": "회의록\n\n2022년 10월 28일\n2022년 11월 04일"
-  },
-  {
-    "objectID": "intro.html#gaise-ii",
-    "href": "intro.html#gaise-ii",
-    "title": "수학교육 통계패키지",
-    "section": "3 GAISE II",
-    "text": "3 GAISE II\n2020년 Pre‑K‑12 통계 교육 평가 및 교육 지침: 통계 및 데이터 과학 교육을 위한 프레임워크 보고서(GAISE II)가 한국어로 번역되어 출간되었습니다.\nPre-K-12 Guidelines for Assessment and Instruction in Statistics Education II (GAISE II)\n\n\n\n\n\n\nWarning\n\n\n\n저는 우리가 아이들이 마주하게 될 세상, 즉 데이터가 주도하는 세상을 준비할 책임이 있다고 믿습니다. 기본적인 데이터 유창성은 대부분의 좋은 직업에 대한 요구 사항일 뿐만 아니라 재정 지식 측면에서든, 우리 자신의 건강에 대해 좋은 선택을 하는 경우든, 또는 누구와 무엇을 믿어야 하는지 아는 것과 같이 보다 일반적으로 삶을 탐색하기 위한 요구 사항입니다.\n출처: Freakonomics 공동 저자인 Steve Levitt 2019년 10월 2일 팟캐스트"
-  },
-  {
-    "objectID": "intro.html#gaise-ii-강조사항",
-    "href": "intro.html#gaise-ii-강조사항",
-    "title": "수학교육 통계패키지",
-    "section": "4 GAISE II 강조사항",
-    "text": "4 GAISE II 강조사항\n\n통계적 문제 해결 과정 전반에 걸쳐 질문을 하는 것의 중요성(통계 조사 질문 모방, 데이터 수집 또는 고려, 데이터 분석 및 결과 해석), 그리고 이 프로세스가 데이터와 관련된 모든 연구에 대한 통계적 추론의 최전선에 남아 있는 방법\n다양한 데이터와 변수 유형에 대한 고려, 통계적 조사 질문에 답하는 데 도움이 되는 데이터 수집 방법 또 는 데이터 고려 방법의 신중한 계획, 데이터 수집, 정리, 질문 및 분석 프로세스의 중요성\n모든 유아원‑12학년 교육 수준 전반에 걸쳐 다변량 사고 포함\n모든 수준에서 무작위성을 수량화하는 확률적 사고의 역할\n현대의 통계적 실천이 기술과 얽혀 있다는 인식, 그리고 가능한 한 기술 통합의 중요성\n통계정보를 명확하고 정확하게 전달하는 것의 중요성 증대\n학교 차원에서 평가의 역할, 특히 개념적 이해를 측정하고 통계적 문제 해결 과정과 관련된 통계적 추론을 요구하는 항목"
-  },
-  {
-    "objectID": "intro.html#통계적-문제-해결-프로세스",
-    "href": "intro.html#통계적-문제-해결-프로세스",
-    "title": "수학교육 통계패키지",
-    "section": "5 통계적 문제 해결 프로세스",
-    "text": "5 통계적 문제 해결 프로세스\nI. 통계 조사 질문 공식화 II. 데이터 수집/고려 III. 데이터 분석 IV. 결과 해석"
-  },
-  {
-    "objectID": "intro.html#dollar-street-프로젝트",
-    "href": "intro.html#dollar-street-프로젝트",
-    "title": "수학교육 통계패키지",
-    "section": "6 Dollar Street 프로젝트",
-    "text": "6 Dollar Street 프로젝트\nGap Minder 에서 시작한 Dollar Street 프로젝트를 통해 생활수준을 가늠할 수 있습니다.\n\nhttps://www.gapminder.org/dollar-street"
-  },
-  {
-    "objectID": "intro.html#다윈-핀치새",
-    "href": "intro.html#다윈-핀치새",
-    "title": "수학교육 통계패키지",
-    "section": "7 다윈 핀치새",
-    "text": "7 다윈 핀치새\n데이터 출처: (Grant & Grant, 2013)\n캐글 Darwin’s Finches Evolution Dataset"
   }
 ]
