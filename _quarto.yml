@@ -35,6 +35,12 @@ website:
           text: "추진 개요"
         - href: workshop.qmd
           text: "교원연수"
+      - text: "소프트웨어"
+        menu:
+        - href: http://r2bit.ddns.net/
+          text: "디지털 글쓰기"
+        - href: https://bitstat.shinyapps.io/bitstat/
+          text: "BitStat 통계패키지"
       - href: reference.qmd
         text: "관련자료"
 
