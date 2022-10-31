@@ -41,6 +41,9 @@ website:
           text: "디지털 글쓰기"
         - href: https://bitstat.shinyapps.io/bitstat/
           text: "BitStat 통계패키지"
+        - text: "---"
+        - href: http://bit2server.ddns.net/shiny/tidyblocks/ko/index.html
+          text: "그래프 tidyblock"
       - href: reference.qmd
         text: "관련자료"
 
