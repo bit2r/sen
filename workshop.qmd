@@ -19,12 +19,25 @@ subtitle: "교원연수"
   - [11월 05일 성균관대 미트업](https://www.meetup.com/seoul-r-meetup/events/288178926/)
   - [12월 10일 성균관대 미트업](https://www.meetup.com/seoul-r-meetup/events/289059335/)
 
+:::{.callout-warning}
+### 대면 워크샵
+
+- 일시: 2022년 11월 12일 (토) 14:00 ~ 18:00
+- 장소: 성균관대학교 경제관 32211
+- 교육연수: 
+    * 콘텐츠 (교재): <https://r2bit.com/bitBook/>
+    * 소프트웨어: <http://bit2server.ddns.net/>
+- [대면연수 참여신청](https://forms.gle/ccqTfzB7wdnuJ9ED7)
+
+:::
+
+
 
 ## 온라인 연수 강의 노트 기록
 
-- [2022년 10월 28일](https://hackmd.io/GpU9h5ztSmibb8LjQ4nwYA)
-- [2022년 11월 04일](https://hackmd.io/jgEcX19iQViK35bo1ZZYLA)
-- 2022년 11월 11일
-- 2022년 11월 18일
-- 2022년 11월 25일
+- [2022년 10월 28일](https://hackmd.io/GpU9h5ztSmibb8LjQ4nwYA): 비대면
+- [2022년 11월 04일](https://hackmd.io/jgEcX19iQViK35bo1ZZYLA): 비대면
+- 2022년 11월 12일: 대면
+- 2022년 11월 19일: 대면
+- 2022년 11월 26일: **Bit-Edu 컨퍼런스**
 
