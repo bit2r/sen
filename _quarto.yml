@@ -53,6 +53,8 @@ website:
         - text: "---"
         - href: http://bit2server.ddns.net/shiny/tidyblocks/ko/index.html
           text: "그래프 tidyblock"
+      - href: sat/math_2022.qmd
+        text: "수능문제"
       - href: reference.qmd
         text: "관련자료"
 
