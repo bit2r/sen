@@ -32,7 +32,7 @@ subtitle: "교원연수"
 :::
 
 
-:::{.callout-warning}
+:::{.callout-note}
 ### 대면 워크샵 (2차)
 
 - 일시: 2022년 11월 19일 (토) 14:00 ~ 18:00
@@ -49,7 +49,7 @@ subtitle: "교원연수"
 
 - [2022년 10월 28일](https://hackmd.io/GpU9h5ztSmibb8LjQ4nwYA): 비대면
 - [2022년 11월 04일](https://hackmd.io/jgEcX19iQViK35bo1ZZYLA): 비대면
-- 2022년 11월 12일: 대면
+- [2022년 11월 12일](https://hackmd.io/SQAbmAuHS0OgH7xdSYfKSw): 대면
 - 2022년 11월 19일: 대면
 - 2022년 11월 26일: **Bit-Edu 컨퍼런스**
 

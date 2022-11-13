@@ -8,6 +8,8 @@ project:
     port: 1357
     browser: true
 
+lang: kr
+
 website:
   title: "통계 패키지"
   image: images/koRea_logo.png
@@ -36,6 +38,17 @@ website:
           href: http://aispiration.com/ds-authoring/data-science-world.html
         - text: "데이터 시각화"
           href: https://aispiration.com/viz/viz.html
+        - text: "---"
+        - text: "컴퓨터과학 언플러그드"
+          href: https://r2bit.com/book_unplugged/
+        - text: "리보그"
+          href: https://aispiration.com/reeborg/
+        - text: "데이터과학 프로그래밍"
+          href: https://r2bit.com/book_programming/
+        - text: "데이터과학 기본기"
+          href: https://r2bit.com/book_analytics/
+        - text: "데이터 시각화"
+          href: https://r2bit.com/book_viz/
       - text: "교육실행"
         menu:
         - href: operation.qmd
@@ -51,8 +64,10 @@ website:
         - href: https://r2bit.shinyapps.io/infer_shiny/
           text: "가설검정"
         - text: "---"
-        - href: http://bit2server.ddns.net/shiny/tidyblocks/ko/index.html
+        - href: http://bit2server.ddns.net/app/tidyblocks/ko/
           text: "그래프 tidyblock"
+        - href: http://bit2server.ddns.net/app/reeborg/
+          text: "리보그(Reeborg)"
       - href: sat/math_2022.qmd
         text: "수능문제"
       - href: reference.qmd

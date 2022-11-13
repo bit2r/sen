@@ -4,7 +4,7 @@
     "href": "index.html#콘텐츠-저작",
     "title": "수학교육 통계패키지",
     "section": "콘텐츠 저작",
-    "text": "콘텐츠 저작\n\n\n\n\n\n\nNote\n\n\n\n\n웹사이트: https://r2bit.com/sen/\n소스코드 저장소: https://github.com/bit2r/sen"
+    "text": "콘텐츠 저작\n\n\n\n\n\n\n노트\n\n\n\n\n웹사이트: https://r2bit.com/sen/\n소스코드 저장소: https://github.com/bit2r/sen"
   },
   {
     "objectID": "intro.html#이해당사자",
@@ -25,7 +25,7 @@
     "href": "intro.html#gaise-ii",
     "title": "수학교육 통계패키지",
     "section": "3 GAISE II",
-    "text": "3 GAISE II\n2020년 Pre‑K‑12 통계 교육 평가 및 교육 지침: 통계 및 데이터 과학 교육을 위한 프레임워크 보고서(GAISE II)가 한국어로 번역되어 출간되었습니다.\nPre-K-12 Guidelines for Assessment and Instruction in Statistics Education II (GAISE II)\n\n\n\n\n\n\nWarning\n\n\n\n저는 우리가 아이들이 마주하게 될 세상, 즉 데이터가 주도하는 세상을 준비할 책임이 있다고 믿습니다. 기본적인 데이터 유창성은 대부분의 좋은 직업에 대한 요구 사항일 뿐만 아니라 재정 지식 측면에서든, 우리 자신의 건강에 대해 좋은 선택을 하는 경우든, 또는 누구와 무엇을 믿어야 하는지 아는 것과 같이 보다 일반적으로 삶을 탐색하기 위한 요구 사항입니다.\n출처: Freakonomics 공동 저자인 Steve Levitt 2019년 10월 2일 팟캐스트"
+    "text": "3 GAISE II\n2020년 Pre‑K‑12 통계 교육 평가 및 교육 지침: 통계 및 데이터 과학 교육을 위한 프레임워크 보고서(GAISE II)가 한국어로 번역되어 출간되었습니다.\nPre-K-12 Guidelines for Assessment and Instruction in Statistics Education II (GAISE II)\n\n\n\n\n\n\n경고\n\n\n\n저는 우리가 아이들이 마주하게 될 세상, 즉 데이터가 주도하는 세상을 준비할 책임이 있다고 믿습니다. 기본적인 데이터 유창성은 대부분의 좋은 직업에 대한 요구 사항일 뿐만 아니라 재정 지식 측면에서든, 우리 자신의 건강에 대해 좋은 선택을 하는 경우든, 또는 누구와 무엇을 믿어야 하는지 아는 것과 같이 보다 일반적으로 삶을 탐색하기 위한 요구 사항입니다.\n출처: Freakonomics 공동 저자인 Steve Levitt 2019년 10월 2일 팟캐스트"
   },
   {
     "objectID": "intro.html#gaise-ii-강조사항",
@@ -137,7 +137,7 @@
     "href": "thesis.html",
     "title": "통계 논문",
     "section": "",
-    "text": "논문작성의 가장 핵심적인 사항은 기본 이론적 배경을 바탕으로 유의미한 새로운 주장 즉, 가설을 제시하고 가설이 사실로 증명될 경우 갖는 의미가 새로운 기여를 한다는 것이 아주 높은 고도에서 바라본 논문의 대략적인 개요가 될 것이다.\n이 지점에서 제시한 가설을 증명하는 방법에 여러가지 갈레가 있을 것이며 그 중 데이터를 바탕으로 가설이 맞다는 것을 증명하는 방식을 취하게 된다.\n귀무가설(\\(H_0\\))은 흔히 회의적인 시각 혹은 검정해야 되는 주장을 나타낸다. 대립가설 (\\(H_A\\))은 고려중인 대립 주장을 나타내고, 흔히 가능한 모수 값의 범위로 나타낸다. 귀무가설은 흔히 회의적인 자세 혹은 차이 없음 관점을 나타낸다. 대립가설은 흔히 변화가 있다는 가능성처럼 새로운 관점을 나타낸다.\n\n\n\n\n\n\nNote\n\n\n\n가설 검정 얼개(hypothesis testing framework)\n대립가설(\\(H_A\\))을 옹호하는 증거가 강력해서 \\(H_A\\) 지지에 대해 (\\(H_0\\))를 거절하지 않는다면, 회의론자는 귀무가설(\\(H_0\\))를 기각하지 않을 것이다.\n가설검정얼개(hypothesis testing framework)는 매우 일반적인 도구로, 재고도 않고 흔히 사용된다. 만약 어떤 사람이 다소 믿을 수 없는 주장을 한다면, 처음에는 회의적인 시각을 갖는다. 하지만, 주장을 뒷받침하는 충분한 증거가 있다면, 회의적인 시각을 파기하고 대립가설을 지지하고 귀무가설을 기각한다. 가설검정 전형적인 특징을 미국 사법체제에서도 발견할 수 있다.\n미국 법원은 피고에 대한 두가지 가능한 주장을 고려한다: 유죄이거나 무죄다. 가설검정얼개로 주장을 준비한다면, 귀무가설과 대립가설은 각각 어느 것이 될까요? \n\n\n배심원은 증거가 너무나 설득력 있어서 (강해서) 피고가 유죄라는 것에 관해서 합리적 의혹(reasonable doubt)이 없는지를 고려한다; 그런 경우에, 배심원은 결백(귀무가설)을 기각하고, 피고가 유죄(대립가설)라고 판결한다.가설검정 방식은 Frequentist와 Bayesian으로 과거 나눠졌으나 최근에는 “코딩을 통한 통계가설검정” 이 기계학습, 인공지능의 부상으로 미국 학부에서 많이 다뤄지고 있다. Frequestist 가설검정 방법론이 대세가 된 것은 RA Fisher (붓꽃 데이터 저자) 명성과 계산량이 상대적으로 다른 방법론에 비해 적어 다수 통계 패키지에 탑재되면서 보편적인 가설검정방법으로 받아들여지게 되었다.\nFrequentist 가설검정은 NHST(Null Hypothesis Significance Testing) 으로 알려져 있으며 NHST 5 단계에 대한 자세한 사항은 NEDARC, Hypothesis Testing을 참조한다.\n컴퓨터를 이용하여 수학적 사전 지식이 적게 필요하고 직관적인 이해를 통해 가설검정을 수행한다는 점에서 최근에 “코딩을 통한 통계가설검정”이 부상하고 있다.\n\nAllen Downey, http://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html\nhttp://aispiration.com/statistics/stat-inference.html\ntidymodels - infer : https://infer.tidymodels.org/"
+    "text": "논문작성의 가장 핵심적인 사항은 기본 이론적 배경을 바탕으로 유의미한 새로운 주장 즉, 가설을 제시하고 가설이 사실로 증명될 경우 갖는 의미가 새로운 기여를 한다는 것이 아주 높은 고도에서 바라본 논문의 대략적인 개요가 될 것이다.\n이 지점에서 제시한 가설을 증명하는 방법에 여러가지 갈레가 있을 것이며 그 중 데이터를 바탕으로 가설이 맞다는 것을 증명하는 방식을 취하게 된다.\n귀무가설(\\(H_0\\))은 흔히 회의적인 시각 혹은 검정해야 되는 주장을 나타낸다. 대립가설 (\\(H_A\\))은 고려중인 대립 주장을 나타내고, 흔히 가능한 모수 값의 범위로 나타낸다. 귀무가설은 흔히 회의적인 자세 혹은 차이 없음 관점을 나타낸다. 대립가설은 흔히 변화가 있다는 가능성처럼 새로운 관점을 나타낸다.\n\n\n\n\n\n\n노트\n\n\n\n가설 검정 얼개(hypothesis testing framework)\n대립가설(\\(H_A\\))을 옹호하는 증거가 강력해서 \\(H_A\\) 지지에 대해 (\\(H_0\\))를 거절하지 않는다면, 회의론자는 귀무가설(\\(H_0\\))를 기각하지 않을 것이다.\n가설검정얼개(hypothesis testing framework)는 매우 일반적인 도구로, 재고도 않고 흔히 사용된다. 만약 어떤 사람이 다소 믿을 수 없는 주장을 한다면, 처음에는 회의적인 시각을 갖는다. 하지만, 주장을 뒷받침하는 충분한 증거가 있다면, 회의적인 시각을 파기하고 대립가설을 지지하고 귀무가설을 기각한다. 가설검정 전형적인 특징을 미국 사법체제에서도 발견할 수 있다.\n미국 법원은 피고에 대한 두가지 가능한 주장을 고려한다: 유죄이거나 무죄다. 가설검정얼개로 주장을 준비한다면, 귀무가설과 대립가설은 각각 어느 것이 될까요? \n\n\n배심원은 증거가 너무나 설득력 있어서 (강해서) 피고가 유죄라는 것에 관해서 합리적 의혹(reasonable doubt)이 없는지를 고려한다; 그런 경우에, 배심원은 결백(귀무가설)을 기각하고, 피고가 유죄(대립가설)라고 판결한다.가설검정 방식은 Frequentist와 Bayesian으로 과거 나눠졌으나 최근에는 “코딩을 통한 통계가설검정” 이 기계학습, 인공지능의 부상으로 미국 학부에서 많이 다뤄지고 있다. Frequestist 가설검정 방법론이 대세가 된 것은 RA Fisher (붓꽃 데이터 저자) 명성과 계산량이 상대적으로 다른 방법론에 비해 적어 다수 통계 패키지에 탑재되면서 보편적인 가설검정방법으로 받아들여지게 되었다.\nFrequentist 가설검정은 NHST(Null Hypothesis Significance Testing) 으로 알려져 있으며 NHST 5 단계에 대한 자세한 사항은 NEDARC, Hypothesis Testing을 참조한다.\n컴퓨터를 이용하여 수학적 사전 지식이 적게 필요하고 직관적인 이해를 통해 가설검정을 수행한다는 점에서 최근에 “코딩을 통한 통계가설검정”이 부상하고 있다.\n\nAllen Downey, http://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html\nhttp://aispiration.com/statistics/stat-inference.html\ntidymodels - infer : https://infer.tidymodels.org/"
   },
   {
     "objectID": "thesis.html#가설검정-방법",
@@ -186,7 +186,7 @@
     "href": "writing.html",
     "title": "디지털 글쓰기",
     "section": "",
-    "text": "Warning\n\n\n\n\n논문 저작 (Quarto)"
+    "text": "경고\n\n\n\n\n논문 저작 (Quarto)"
   },
   {
     "objectID": "writing.html#디지털-문서-제작-패러다임",
