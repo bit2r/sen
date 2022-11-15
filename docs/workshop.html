@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="kr" xml:lang="kr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.242">
+<meta name="generator" content="quarto-1.2.237">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>통계 패키지 - 수학교육 통계패키지</title>
+<title>빛에듀(Bit-Edu) - 수학교육 통계패키지</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -63,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">통계 패키지</span>
+    <span class="navbar-title">빛에듀(Bit-Edu)</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -82,10 +82,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./index.html">
  <span class="menu-text">홈</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./intro.html">
- <span class="menu-text">들어가며</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -135,6 +131,10 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">데이터과학 프로그래밍</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="https://r2bit.com/Rcmdr/">
+ <span class="dropdown-text">설치형 통계 패키지(Rcmdr)</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="https://r2bit.com/book_analytics/">
  <span class="dropdown-text">데이터과학 기본기</span></a>
   </li>  
@@ -157,15 +157,29 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./workshop.html">
  <span class="dropdown-text">교원연수</span></a>
   </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="./gaise.html">
+ <span class="dropdown-text">GAISE II (미국)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sat/math_2022.html">
+ <span class="dropdown-text">수능 확률통계</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu--2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">소프트웨어</span>
+ <span class="menu-text">도구</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu--2">    
         <li>
-    <a class="dropdown-item" href="http://r2bit.ddns.net/">
+    <a class="dropdown-item" href="http://bit2edu.ddns.net/">
+ <span class="dropdown-text">빛에듀(Bit-Edu)</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="http://bit2edu.ddns.net/docs/digitalwriting/">
  <span class="dropdown-text">디지털 글쓰기</span></a>
   </li>  
         <li>
@@ -187,6 +201,21 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu--3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">데이터</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu--3">    
+        <li>
+    <a class="dropdown-item" href="https://r2bit.com/bitData/">
+ <span class="dropdown-text">교육용 데이터셋</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://r2bit.com/hsData/">
+ <span class="dropdown-text">실용통계 교과서 데이터셋</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./reference.html">
  <span class="menu-text">관련자료</span></a>
@@ -196,19 +225,70 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">수학교육 통계패키지</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">디지털 전자책</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://r2bit.com/bitBook/" class="sidebar-item-text sidebar-link">디지털 글쓰기</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://github.com/bit2r/bitBook" class="sidebar-item-text sidebar-link">소스코드</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://www.meetup.com/seoul-r-meetup/events/289596122/" class="sidebar-item-text sidebar-link">글쓰기 컨퍼런스</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">목차</h2>
    
   <ul>
-  <li><a href="#참여신청" id="toc-참여신청" class="nav-link active" data-scroll-target="#참여신청">참여신청</a></li>
-  <li><a href="#교원-연수" id="toc-교원-연수" class="nav-link" data-scroll-target="#교원-연수">교원 연수</a></li>
-  <li><a href="#온라인-연수-강의-노트-기록" id="toc-온라인-연수-강의-노트-기록" class="nav-link" data-scroll-target="#온라인-연수-강의-노트-기록">온라인 연수 강의 노트 기록</a></li>
+  <li><a href="#디지털-교육-참여자" id="toc-디지털-교육-참여자" class="nav-link active" data-scroll-target="#디지털-교육-참여자">디지털 교육 참여자</a>
+  <ul class="collapse">
+  <li><a href="#이해당사자" id="toc-이해당사자" class="nav-link" data-scroll-target="#이해당사자">이해당사자</a></li>
+  <li><a href="#디지털-교육-도구" id="toc-디지털-교육-도구" class="nav-link" data-scroll-target="#디지털-교육-도구">디지털 교육 도구</a></li>
+  </ul></li>
+  <li><a href="#교원-연수" id="toc-교원-연수" class="nav-link" data-scroll-target="#교원-연수">교원 연수</a>
+  <ul class="collapse">
+  <li><a href="#참여신청" id="toc-참여신청" class="nav-link" data-scroll-target="#참여신청">참여신청</a></li>
+  <li><a href="#온라인-강의-노트" id="toc-온라인-강의-노트" class="nav-link" data-scroll-target="#온라인-강의-노트">온라인 강의 노트</a></li>
+  <li><a href="#웹포스터" id="toc-웹포스터" class="nav-link" data-scroll-target="#웹포스터">웹포스터</a></li>
+  </ul></li>
+  <li><a href="#컨퍼런스" id="toc-컨퍼런스" class="nav-link" data-scroll-target="#컨퍼런스">컨퍼런스</a>
+  <ul class="collapse">
+  <li><a href="#행사-프로그램" id="toc-행사-프로그램" class="nav-link" data-scroll-target="#행사-프로그램">행사 프로그램</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -217,7 +297,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">수학교육 통계패키지</h1>
+<h1 class="title d-none d-lg-block">수학교육 통계패키지</h1>
 <p class="subtitle lead">교원연수</p>
 </div>
 
@@ -233,18 +313,40 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="참여신청" class="level2">
-<h2 class="anchored" data-anchor-id="참여신청">참여신청</h2>
+<section id="디지털-교육-참여자" class="level1">
+<h1>디지털 교육 참여자</h1>
+<section id="이해당사자" class="level2">
+<h2 class="anchored" data-anchor-id="이해당사자">이해당사자</h2>
+<p>한국 R 사용자회에서는 통계패키지를 사용하고 있는 다양한 사용자의 요구를 충족시키기 위해 다양한 기능이 포함된 소프트웨어, 콘텐츠, 데이터, 커뮤니티를 운영하고 있습니다.</p>
 <ul>
-<li><a href="https://forms.gle/ccqTfzB7wdnuJ9ED7">온라인 참여신청</a></li>
-<li><a href="https://meet.google.com/tgf-dfnu-dct">연수참여</a>
+<li>학생: 귀납적 사고방식과 문제풀이 방식을 이해한 후에 학생 스스로 데이터를 가지고 분석을 할 수 있는 도구가 필요</li>
+<li>교사: 귀납적 사고방식과 문제풀이 방식을 학생에게 전달할 수 있는 효과적인 도구가 필요</li>
+<li>개발자: 학생과 교사 및 이해당사자가 필요한 통계 관련 콘텐츠, 데이터, 소프트웨어를 개발할 수 있는 플랫폼과 네트워크가 필요</li>
+<li>석박사 논문: 데이터 사이언스 시대에 맞는 맞춤형 석박사 논문 제작 및 개발을 지원할 수 있는 도구가 필요</li>
+</ul>
+<p><img src="images/stakeholders.jpg" class="img-fluid"></p>
+</section>
+<section id="디지털-교육-도구" class="level2">
+<h2 class="anchored" data-anchor-id="디지털-교육-도구">디지털 교육 도구</h2>
 <ul>
-<li>참여신청을 하시고 승인된 분께만 Google Meet 초대장을 통해 연수에 참여 가능합니다.</li>
+<li>교사 : <a href="https://github.com/bit2r/bitStat-HS" class="uri">https://github.com/bit2r/bitStat-HS</a></li>
+<li>학생 : <a href="https://bitstat.shinyapps.io/bitstat/" class="uri">https://bitstat.shinyapps.io/bitstat/</a></li>
+<li>개발자: <a href="https://github.com/bit2r" class="uri">https://github.com/bit2r</a></li>
+<li>논문제작과 글쓰기
+<ul>
+<li>통계 가설검정: <a href="https://r2bit.shinyapps.io/infer_shiny/" class="uri">https://r2bit.shinyapps.io/infer_shiny/</a></li>
+<li>디지털 글쓰기: <a href="http://bit2edu.ddns.net/" class="uri">http://bit2edu.ddns.net/</a></li>
+</ul></li>
+<li>코딩
+<ul>
+<li>리보그: <a href="http://bit2server.ddns.net/app/reeborg/" class="uri">http://bit2server.ddns.net/app/reeborg/</a></li>
+<li>RStudio IDE: <a href="http://bit2edu.ddns.net/rstudio/" class="uri">http://bit2edu.ddns.net/rstudio/</a></li>
 </ul></li>
 </ul>
 </section>
-<section id="교원-연수" class="level2">
-<h2 class="anchored" data-anchor-id="교원-연수">교원 연수</h2>
+</section>
+<section id="교원-연수" class="level1">
+<h1>교원 연수</h1>
 <ul>
 <li>Office Hour <a href="https://meet.google.com/krv-apoo-dks">한국 R 사용자회 정기모임</a>
 <ul>
@@ -256,6 +358,15 @@ ul.task-list li input[type="checkbox"] {
 <li>서울 R 미트업에 “디지털 글쓰기 및 오픈 통계 패키지” 소모임있습니다. 소모임 참여를 원하시는 분은 admin@r2bit.com 으로 연락주세요.</li>
 <li><a href="https://www.meetup.com/seoul-r-meetup/events/288178926/">11월 05일 성균관대 미트업</a></li>
 <li><a href="https://www.meetup.com/seoul-r-meetup/events/289059335/">12월 10일 성균관대 미트업</a></li>
+</ul></li>
+</ul>
+<section id="참여신청" class="level2">
+<h2 class="anchored" data-anchor-id="참여신청">참여신청</h2>
+<ul>
+<li><a href="https://forms.gle/ccqTfzB7wdnuJ9ED7">온라인 참여신청</a></li>
+<li><a href="https://meet.google.com/tgf-dfnu-dct">연수참여</a>
+<ul>
+<li>참여신청을 하시고 승인된 분께만 Google Meet 초대장을 통해 연수에 참여 가능합니다.</li>
 </ul></li>
 </ul>
 <div class="callout-warning callout callout-style-default callout-captioned">
@@ -303,17 +414,87 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="온라인-연수-강의-노트-기록" class="level2">
-<h2 class="anchored" data-anchor-id="온라인-연수-강의-노트-기록">온라인 연수 강의 노트 기록</h2>
+<section id="온라인-강의-노트" class="level2">
+<h2 class="anchored" data-anchor-id="온라인-강의-노트">온라인 강의 노트</h2>
 <ul>
 <li><a href="https://hackmd.io/GpU9h5ztSmibb8LjQ4nwYA">2022년 10월 28일</a>: 비대면</li>
 <li><a href="https://hackmd.io/jgEcX19iQViK35bo1ZZYLA">2022년 11월 04일</a>: 비대면</li>
 <li><a href="https://hackmd.io/SQAbmAuHS0OgH7xdSYfKSw">2022년 11월 12일</a>: 대면</li>
 <li>2022년 11월 19일: 대면</li>
-<li>2022년 11월 26일: <strong>Bit-Edu 컨퍼런스</strong></li>
+<li>2022년 11월 26일: <a href="https://www.meetup.com/seoul-r-meetup/events/289596122/"><strong>Bit-Edu 컨퍼런스</strong></a></li>
 </ul>
+</section>
+<section id="웹포스터" class="level2">
+<h2 class="anchored" data-anchor-id="웹포스터">웹포스터</h2>
+<p><img src="images/web-poster.jpg" class="img-fluid"></p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+노트
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>웹사이트: <a href="https://r2bit.com/sen/" class="uri">https://r2bit.com/sen/</a></li>
+<li>소스코드 저장소: <a href="https://github.com/bit2r/sen" class="uri">https://github.com/bit2r/sen</a></li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="컨퍼런스" class="level1">
+<h1>컨퍼런스</h1>
+<p>한국 R 사용자회에서는 통계패키지를 사용하고 있는 다양한 사용자의 요구를 충족시키기 위해 다양한 기능이 포함된 소프트웨어, 콘텐츠, 데이터, 커뮤니티를 운영하고 있습니다. 서울특별시교육청 혁신교육과제의 일환으로 데이터 문해력과 디지털 글쓰기를 주제로 대면 컨퍼런스를 아래와 같이 개최하게 되었습니다.</p>
+<ul>
+<li>일시: 2022년 11월 26일 (토) 14:00 ~ 18:00</li>
+<li>장소: 성균관대학교 경제관 32211 호</li>
+<li>참석자: 디지털 교육 관심있으신 선생님, 학부모, 학생, 개발자</li>
+<li>웹사이트: https://r2bit.com/sen/</li>
+</ul>
+<section id="행사-프로그램" class="level2">
+<h2 class="anchored" data-anchor-id="행사-프로그램">행사 프로그램</h2>
+<ol type="1">
+<li>데이터 문해력과 디지털 글쓰기 (1 Hr)
+<ul>
+<li>제목: 빛에듀(Bit-Edu) 생태계</li>
+<li>발제자: 한국R사용자회 강사 / 개발자</li>
+<li>개요: 빅데이터와 인공지능으로 촉발된 디지털 전환시대 필수역량을 자리잡은 데이터 문해력과 디지털 글쓰기를 통해 효과적으로 키울 수 있는 도구로 한국 R 사용자회를 주축으로 오픈소스 개발자가 참여하여 구축된 빛에듀(Bit-Edu) 생태계를 살펴보고 함께 성장해 나갈 수 있는 방안을 소개합니다.</li>
+</ul></li>
+<li>데이터 문해력 (0.5 Hr)
+<ul>
+<li>제목: 오픈 통계 패키지(BitStat)</li>
+<li>발제자: 한국R사용자회 강사 / 개발자</li>
+<li>개요: 디지털 전환시대 필수 역량인 데이터 문해력 향상의 장애물들과 이를 극복할 수 있는 다양한 도구와 방법을 소개하고 한국 R 사용자회와 오픈소스 소프트웨어 개발자의 자발적인 기여로 개발중인 빛스탯(BitStat) 오픈 통계 패키지를 중심으로 데이터 문해력 여정과 여정을 함께 할 도구로 오픈소스 데이터(hsData, BitData), 소프트웨어(BitStat, 리보그, 블록 프로그래밍, Quarto), 콘텐츠(Quarto Book, 블로그, 논문, 웹사이트 등)를 소개합니다.</li>
+</ul></li>
+<li>디지털 글쓰기 (0.5 Hr)
+<ul>
+<li>제목: 재현가능한 문서 저작 자동화(BitWriting)</li>
+<li>발제자: 한국R사용자회 강사 / 개발자</li>
+<li>개요: 기존 글쓰기가 사람을 위한 글쓰기였다면, 최근 코딩 바람이 거세게 불면서 프로그래밍을 통한 기계를 위한 글쓰기가 부각되고 있다. 따라서, 동시에 텍스트와 코드를 저작(Literate Programming)하고 블로그, 보고서, 논문, PPT, 책 등 다양한 형태로 저작물을 자동생성할 수 있는 역량이 필수적으로 요구되고 있습니다. 이를 위한 재현가능한 문서 저작 자동화(BitWriting) 도구도 함께 소개합니다.</li>
+</ul></li>
+</ol>
+<hr>
+<ol type="1">
+<li>데이터 문해력 워크샵 (1 Hr)
+<ul>
+<li>제목: 오픈 데이터, 통계, 문해력 워크샵</li>
+<li>Instructor(강사): 한국R사용자회 강사 혹은 외부전문강사</li>
+<li>Abstract: 오픈 데이터 패키지(BitData, hsData)와 오픈 통계 패키지(BitStat)를 활용하여 오픈소스 소프트웨어/콘텐츠 기여자와 공동으로 데이터가 품고 있는 정보를 밝혀내어 데이터 문해력을 향상시킬 수 있는 방법을 실습을 통해 함께 경험하고 기여할 수 있게 됩니다. 빛에듀 오픈 데이터와 소프트웨어 사용법에서 시작하여 데이터 과학(통계) 기본개념과 Tidyverse 패러다임도 학습하고, 데이터 저널리즘, 텍스트 분석 등 사례를 통해 데이터 문해력을 심층적으로 탐색합니다.</li>
+</ul></li>
+<li>디지털 글쓰기 워크샵 (1 Hr)
+<ul>
+<li>제목: 재현가능한 문서 저작 자동화 실습</li>
+<li>Instructor(강사): 한국R사용자회 강사 혹은 외부전문강사</li>
+<li>Abstract: 데이터 문해력을 통해 발견한 사항을 미래의 자신과 동료, 소속기관, 사회와 커뮤니케이션할 수 있는 재현가능한 글쓰기 기본기를 핸즈온 워크샵을 통해 실습합니다. 빛에듀 저작도구를 기본으로 개념을 익히고 최신 Quarto 도구를 활용하여 매력적이며 동시에 고품질 문서 저작 자동화 기법도 익히게 됩니다.</li>
+</ul></li>
+</ol>
+<p><img src="images/conference_preview.png" class="img-fluid"></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

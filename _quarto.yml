@@ -11,7 +11,7 @@ project:
 lang: kr
 
 website:
-  title: "통계 패키지"
+  title: "빛에듀(Bit-Edu)"
   image: images/koRea_logo.png
   page-navigation: true
   navbar:
@@ -19,8 +19,6 @@ website:
     left:
       - href: index.qmd
         text: "홈"
-      - href: intro.qmd
-        text: "들어가며"
       - text: "교재"
         menu:
         - text: "디지털 글쓰기-공용"
@@ -45,6 +43,8 @@ website:
           href: https://aispiration.com/reeborg/
         - text: "데이터과학 프로그래밍"
           href: https://r2bit.com/book_programming/
+        - text: "설치형 통계 패키지(Rcmdr)"
+          href: https://r2bit.com/Rcmdr/
         - text: "데이터과학 기본기"
           href: https://r2bit.com/book_analytics/
         - text: "데이터 시각화"
@@ -55,9 +55,17 @@ website:
           text: "추진 개요"
         - href: workshop.qmd
           text: "교원연수"
-      - text: "소프트웨어"
+        - text: "---"
+        - href: gaise.qmd
+          text: "GAISE II (미국)"
+        - href: sat/math_2022.qmd
+          text: "수능 확률통계"
+      - text: "도구"
         menu:
-        - href: http://r2bit.ddns.net/
+        - href: http://bit2edu.ddns.net/
+          text: "빛에듀(Bit-Edu)"
+        - text: "---"
+        - href: http://bit2edu.ddns.net/docs/digitalwriting/
           text: "디지털 글쓰기"
         - href: https://bitstat.shinyapps.io/bitstat/
           text: "BitStat 통계패키지"
@@ -68,11 +76,25 @@ website:
           text: "그래프 tidyblock"
         - href: http://bit2server.ddns.net/app/reeborg/
           text: "리보그(Reeborg)"
-      - href: sat/math_2022.qmd
-        text: "수능문제"
+      - text: "데이터"
+        menu:
+        - href: https://r2bit.com/bitData/
+          text: "교육용 데이터셋"
+        - href: https://r2bit.com/hsData/
+          text: "실용통계 교과서 데이터셋"
       - href: reference.qmd
         text: "관련자료"
-
+  sidebar:
+    style: docked
+    contents:
+      - section: "디지털 전자책"
+        contents:
+        - href: https://r2bit.com/bitBook/
+          text: "디지털 글쓰기"
+        - href: https://github.com/bit2r/bitBook
+          text: "`bitBook` 소스코드"
+        - href: https://www.meetup.com/seoul-r-meetup/events/289596122/
+          text: "글쓰기 컨퍼런스"
 format:
   html:
     theme: cosmo

@@ -17,6 +17,7 @@ format:
 - 데이터: <https://r2bit.com/data.html>
   -	실용통계 데이터셋(hsData): <https://r2bit.com/hsData/>
   -	기초통계 데이터셋(bitData): <https://r2bit.com/bitData/>
+  - [한국 아동/청소년 데이터 아카이브](https://www.nypi.re.kr/archive/)
 - 콘텐츠: <https://r2bit.com/book.html>
   -	데이터 과학 언플러그드: <https://r2bit.com/book_unplugged/>
   -	데이터 과학 프로그래밍: <https://r2bit.com/book_programming/>
@@ -39,5 +40,13 @@ format:
   - [통그라미](https://tong.kostat.go.kr/)
   - [Flourish](https://flourish.studio/) - 한스 로스링, gapminder
   - 통계로 통하자_웹용 - 자유학기제 수업을 위한 워크북
+- [`CODAP`](https://codap.concord.org/)
+  - [codap GitHub 저장소](https://github.com/concord-consortium/codap)
+- [엔트리(Entry)](playentry.org)
+- [EBSMath 이지통계](https://ebsmath.co.kr/easyTong)
+- [통그라미](https://tong.kostat.go.kr/front/main/main.do)
 
 
+
+
+datalab.naver.com

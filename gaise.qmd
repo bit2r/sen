@@ -1,0 +1,59 @@
+---
+title: "수학교육 통계패키지"
+subtitle: "GAISE II"
+---
+
+2020년 Pre‑K‑12 통계 교육 평가 및 교육 지침: 통계 및 데이터 과학 교육을 위한 프레임워크 보고서(GAISE II)가 한국어로 번역되어 출간되었습니다.
+
+[Pre-K-12 Guidelines for Assessment and Instruction in Statistics Education II (GAISE II)](https://nctm.wistia.com/medias/scmd1ls63t)
+
+:::{.callout-warning}
+
+저는 우리가 아이들이 마주하게 될 세상, 즉 데이터가 주도하는 세상을 준비할 책임이 있다고 믿습니다. 기본적인 데이터 유창성은 대부분의 좋은 직업에 대한 요구 사항일 뿐만 아니라 재정 지식 측면에서든, 우리 자신의 건강에 대해 좋은 선택을 하는 경우든, 또는 누구와 무엇을 믿어야 하는지 아는 것과 같이 보다 일반적으로 삶을 탐색하기 위한 요구 사항입니다.
+
+출처: Freakonomics 공동 저자인 Steve Levitt 2019년 10월
+2일 팟캐스트
+
+:::
+
+# GAISE II 강조사항
+
+1. 통계적 문제 해결 과정 전반에 걸쳐 질문을 하는 것의 중요성(통계 조사 질문 모방, 데이터 수집 또는 고려, 데이터 분석 및 결과 해석), 그리고 이 프로세스가 데이터와 관련된 모든 연구에 대한 통계적 추론의 최전선에 남아 있는 방법
+
+2. 다양한 데이터와 변수 유형에 대한 고려, 통계적 조사 질문에 답하는 데 도움이 되는 데이터 수집 방법 또 는 데이터 고려 방법의 신중한 계획, 데이터 수집, 정리, 질문 및 분석 프로세스의 중요성
+
+3. 모든 유아원‑12학년 교육 수준 전반에 걸쳐 다변량 사고 포함
+
+4. 모든 수준에서 무작위성을 수량화하는 확률적 사고의 역할
+
+5. 현대의 통계적 실천이 기술과 얽혀 있다는 인식, 그리고 가능한 한 기술 통합의 중요성 
+
+6. 통계정보를 명확하고 정확하게 전달하는 것의 중요성 증대
+
+7. 학교 차원에서 평가의 역할, 특히 개념적 이해를 측정하고 통계적 문제 해결 과정과 관련된 통계적 추론을 요구하는 항목
+
+# 통계적 문제 해결
+
+I. 통계 조사 질문 공식화
+II. 데이터 수집/고려
+III. 데이터 분석
+IV. 결과 해석
+
+
+![](images/statistical-problem-solving-process.png)
+
+## Dollar Street 프로젝트
+
+[Gap Minder](https://www.gapminder.org/) 에서 시작한 Dollar Street 프로젝트를 통해 생활수준을 가늠할 수 있습니다.
+
+
+- <https://www.gapminder.org/dollar-street>
+
+
+## 다윈 핀치새
+
+데이터 출처: [@finch2013]
+
+캐글 [Darwin's Finches Evolution Dataset](https://www.kaggle.com/datasets/crbelhekar619/darwins-finches-evolution-dataset)
+
+

@@ -1,10 +1,31 @@
 [
   {
-    "objectID": "index.html#콘텐츠-저작",
-    "href": "index.html#콘텐츠-저작",
+    "objectID": "gaise.html",
+    "href": "gaise.html",
     "title": "수학교육 통계패키지",
-    "section": "콘텐츠 저작",
-    "text": "콘텐츠 저작\n\n\n\n\n\n\n노트\n\n\n\n\n웹사이트: https://r2bit.com/sen/\n소스코드 저장소: https://github.com/bit2r/sen"
+    "section": "",
+    "text": "2020년 Pre‑K‑12 통계 교육 평가 및 교육 지침: 통계 및 데이터 과학 교육을 위한 프레임워크 보고서(GAISE II)가 한국어로 번역되어 출간되었습니다.\nPre-K-12 Guidelines for Assessment and Instruction in Statistics Education II (GAISE II)"
+  },
+  {
+    "objectID": "gaise.html#dollar-street-프로젝트",
+    "href": "gaise.html#dollar-street-프로젝트",
+    "title": "수학교육 통계패키지",
+    "section": "Dollar Street 프로젝트",
+    "text": "Dollar Street 프로젝트\nGap Minder 에서 시작한 Dollar Street 프로젝트를 통해 생활수준을 가늠할 수 있습니다.\n\nhttps://www.gapminder.org/dollar-street"
+  },
+  {
+    "objectID": "gaise.html#다윈-핀치새",
+    "href": "gaise.html#다윈-핀치새",
+    "title": "수학교육 통계패키지",
+    "section": "다윈 핀치새",
+    "text": "다윈 핀치새\n데이터 출처: [@finch2013]\n캐글 Darwin’s Finches Evolution Dataset"
+  },
+  {
+    "objectID": "index.html#컨퍼런스-참여신청",
+    "href": "index.html#컨퍼런스-참여신청",
+    "title": "수학교육 통계패키지",
+    "section": "컨퍼런스 참여신청",
+    "text": "컨퍼런스 참여신청\n\n참여신청 클릭"
   },
   {
     "objectID": "intro.html#이해당사자",
@@ -81,7 +102,21 @@
     "href": "reference.html",
     "title": "관련 자료",
     "section": "",
-    "text": "한국 R 사용자회\n\n\n\n관련 자료\n\n소프트웨어: https://github.com/bit2r\n\n오픈 통계 패키지(BitStat): https://bitstat.shinyapps.io/bitstat/\n통계 가설검정: https://r2bit.shinyapps.io/infer_shiny/\n디지털 글쓰기: http://r2bit.ddns.net/\n\n데이터: https://r2bit.com/data.html\n\n실용통계 데이터셋(hsData): https://r2bit.com/hsData/\n기초통계 데이터셋(bitData): https://r2bit.com/bitData/\n\n콘텐츠: https://r2bit.com/book.html\n\n데이터 과학 언플러그드: https://r2bit.com/book_unplugged/\n데이터 과학 프로그래밍: https://r2bit.com/book_programming/\n데이터 시각화: https://r2bit.com/book_viz/\n데이터 과학 기본기: https://r2bit.com/book_analytics/\n오픈통계 패키지: https://r2bit.com/Rcmdr/\nR 텍스트 마이닝: https://r2bit.com/book_tm/\n\n오픈 커뮤니티와 지식나눔\n\n페이스북 그룹: https://www.facebook.com/groups/tidyverse\n서울 R 미트업: https://www.meetup.com/seoul-r-meetup/\n발표자료: https://tidyverse-korea.github.io/seoul-R/\n한국 R 컨퍼런스: https://use-r.kr/\n유튜브 채널: https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nq\n\n디지털 글쓰기, 워크샵, 발표자료:\n\n디지털 글쓰기: https://r2bit.com/quarto/\n발표 슬라이드: http://aispiration.com/ds-authoring/ https://r2bit.com/bitSlide\n워크샵: https://choonghyunryu.github.io/workshop_lecture/\n\n학교에서 통계와 데이터과학은 어떻게 가르쳐야 할까?\n전국통계교육교사모임\n\n통그라미\nFlourish - 한스 로스링, gapminder\n통계로 통하자_웹용 - 자유학기제 수업을 위한 워크북"
+    "text": "한국 R 사용자회\n\n\n\n관련 자료\n\n소프트웨어: https://github.com/bit2r\n\n오픈 통계 패키지(BitStat): https://bitstat.shinyapps.io/bitstat/\n통계 가설검정: https://r2bit.shinyapps.io/infer_shiny/\n디지털 글쓰기: http://r2bit.ddns.net/\n\n데이터: https://r2bit.com/data.html\n\n실용통계 데이터셋(hsData): https://r2bit.com/hsData/\n기초통계 데이터셋(bitData): https://r2bit.com/bitData/\n한국 아동/청소년 데이터 아카이브\n\n콘텐츠: https://r2bit.com/book.html\n\n데이터 과학 언플러그드: https://r2bit.com/book_unplugged/\n데이터 과학 프로그래밍: https://r2bit.com/book_programming/\n데이터 시각화: https://r2bit.com/book_viz/\n데이터 과학 기본기: https://r2bit.com/book_analytics/\n오픈통계 패키지: https://r2bit.com/Rcmdr/\nR 텍스트 마이닝: https://r2bit.com/book_tm/\n\n오픈 커뮤니티와 지식나눔\n\n페이스북 그룹: https://www.facebook.com/groups/tidyverse\n서울 R 미트업: https://www.meetup.com/seoul-r-meetup/\n발표자료: https://tidyverse-korea.github.io/seoul-R/\n한국 R 컨퍼런스: https://use-r.kr/\n유튜브 채널: https://www.youtube.com/channel/UCW-epmIvjBEhhVXw_F0Nq\n\n디지털 글쓰기, 워크샵, 발표자료:\n\n디지털 글쓰기: https://r2bit.com/quarto/\n발표 슬라이드: http://aispiration.com/ds-authoring/ https://r2bit.com/bitSlide\n워크샵: https://choonghyunryu.github.io/workshop_lecture/\n\n학교에서 통계와 데이터과학은 어떻게 가르쳐야 할까?\n전국통계교육교사모임\n\n통그라미\nFlourish - 한스 로스링, gapminder\n통계로 통하자_웹용 - 자유학기제 수업을 위한 워크북\n\nCODAP\n\ncodap GitHub 저장소\n\n엔트리(Entry)\nEBSMath 이지통계\n통그라미\n\ndatalab.naver.com"
+  },
+  {
+    "objectID": "sat/math_2022.html",
+    "href": "sat/math_2022.html",
+    "title": "대학수학능력시험 문제",
+    "section": "",
+    "text": "다항식 \\((x+2)^7\\) 전개식에서 \\(x^5\\)의 계수는? [2점]\n\n① 42\n② 56\n③ 70\n④ 84\n⑤ 98\n\\[\n{}_7 C_5 \\times x^5 \\times 2^2 \\\\~\\\\\n{}_7 C_2 \\times 2^2 \\times x^5= \\frac{7\\times 6}{2} \\times 4 = 42 \\times 2 = 84\n\\]\n\n\n\n\n확률변수 \\(X\\) 가 이항분포 \\(B(n,\\frac{1}{3})\\)을 따르고 \\(V(2X) =40\\) 일 때, \\(n\\)의 값은? [3점]\n\n① 30 ② 35 ③ 40 ④ 45 ⑤ 50\n\n\\(V(2X) = 4V(X) = 40\\) 따라서, \\(V(X) = 10\\)\n\\(V(X) = n \\times p \\times (1-p) = n \\times \\frac{1}{3} \\times \\frac{2}{3} = n \\times \\frac{2}{9}=10\\) 따라서, \\(n=45\\)\n\n\n\n\n\n1 부터 10까지 자연수가 하나씩 적혀 있는 10 장의 카드가 들어 있는 주머니가 있다. 이 주머니에서 임의로 카드 3 장을 동시에 꺼낼 때, 꺼낸 카드에 적혀 있는 세 자연수 중에서 가장 작은 수가 4 이하이거나 7 이상일 확률은? [3점]\n\n① \\(\\frac{4}{5}\\) ② \\(\\frac{5}{6}\\) ③ \\(\\frac{13}{15}\\) ④ \\(\\frac{9}{10}\\) ⑤ \\(\\frac{14}{15}\\)\n\n\n\n\n어느 자동차 회사에서 생산하는 전기 자동차의 1회 충전 주행 거리는 평균이 \\(m\\)이고 표준편차가 \\(\\sigma\\)인 정규분포를 따른다고 한다. 이 자동차 회사에서 생산한 전기 자동차 100 대를 임의추출하여 얻은 1회 충전 주행 거리의 표본평균이 \\(\\bar{x}_1\\) 일 때, 모평균 \\(m\\)에 대한 신뢰도 95 %의 신뢰구간이 \\(a \\le m \\le b\\) 이다. 이 자동차 회사에서 생산한 전기 자동차 400대를 임의추출하여 얻은 1회 충전 주행 거리의 표본평균이 \\(\\bar{x}_2\\)일 때, 모평균 \\(m\\)에 대한 신뢰도 95%의 신뢰구간이 \\(c \\le m \\le d\\)이다. \\(\\bar{x}_1 - \\bar{x}_2 = 1.34\\)이고 \\(a=c\\) 일 때, \\(b-a\\)의 값은? (단, 주행 거리의 단위는 km이고, \\(Z\\)가 표준정규분포를 따르는 확률변수일 때 \\(P(|Z|\\le1.96)=0.95, P(|Z|\\le 2.58)=0.99\\) 로 계산한다.) [3점]\n\n① 5.88 ② 7.84 ③ 9.80 ④ 11.76 ⑤ 13.72\n$$ {x}_1 - 1.96 m {x}_1 + 1.96 \\~\\\n{x}_1 - 1.96 m {x}_1 + 1.96 \\~\\$$\n$$ {x}_2 - 2.58 m {x}_2 + 2.58 \\~\\\n{x}_2 - 2.58 m {x}_2 + 2.58 $$\n상기 식에서 \\(a,c\\)는 다음과 같이 정의된다.\n\\[\n\\bar{x}_1 - 1.96 \\frac{\\sigma}{10} \\rightarrow a \\\\~\\\\\n\\bar{x}_2 - 2.58 \\frac{\\sigma}{20} \\rightarrow c\n\\]\n그리고 \\(a=c\\)이 성립하기 때문에\n$$ {x}_1 - 1.96 = {x}_2 - 2.58 \\~\\\n{x}_1 - {x}_2 = 1.96 - 2.58 $$ 여기서 \\(\\bar{x}_1 - \\bar{x}_2 = 1.34\\)로 주어졌기 때문에 \\(\\sigma\\)를 구할 수 있다.\n\\[\n1.34 =  1.96 \\frac{\\sigma}{10}  - 2.58 \\frac{\\sigma}{20} = \\\\~\\\\\n\\frac{\\sigma}{20}(3.92-2.58) = \\frac{\\sigma}{20}\\times1.34\n\\] 따라서, \\(\\sigma = 20\\)\n\\[\nb-a = 2 \\times 1.96 \\times \\frac{20}{10} = 4 \\times 1.96 = 7.84\n\\]"
+  },
+  {
+    "objectID": "sat/math_2022.html#번-문제-4",
+    "href": "sat/math_2022.html#번-문제-4",
+    "title": "대학수학능력시험 문제",
+    "section": "6번 문제",
+    "text": "6번 문제\n\n정규분포 \\(N(20, 5^2)\\)을 따르는 모집단에서 크기가 16인 표본을 임의추출하여 구한 표본평균을 \\(\\bar{X}\\)라 할 때, \\(E(\\bar{X}) + \\sigma(\\bar{X} )\\)의 값은? [3점]\n\n① \\(\\frac{83}{4}\\) ② \\(\\frac{85}{4}\\) ③ \\(\\frac{87}{4}\\) ④ \\(\\frac{89}{4}\\) ⑤ \\(\\frac{91}{4}\\)\n표본평균은 모평균과 같다.\n\\[\nE(\\bar{X}) = 20\n\\] 표본 분산은 모표준편차를 표본으로 나눠줘야 구할 수 있다. 즉,\n\\[\n\\sigma(\\bar{X}) = \\frac{5}{\\sqrt{16}} = \\frac{5}{4}\n\\]\n따라서,\n\\[\nE(\\bar{X}) + \\sigma(\\bar{X} ) = 20 + \\frac{5}{4} = \\frac{85}{4}\n\\] ## 22번 문제\n\n$( x + )^5 $ 의 전개식에서 \\(x^2\\)의 계수를 구하시오. [3점]\n\n\\[{}_5 C _4 \\times x^4 \\times \\big( \\frac{3}{x^2} \\big)^1 \\\\~\\\\\n{}_5 C _1 \\times x^2 \\times 3 = 5 \\times 3 \\times x^2 = 15 \\times x^2\n\\]\n\n확률변수 \\(X\\)는 평균이 8, 표준편차가 3 인 정규분포를 따르고, 확률변수 \\(Y\\) 는 평균이 \\(m\\), 표준편차가 \\(\\sigma\\)인 정규분포를 따른다. 두 확률변수 \\(X, Y\\)가 $P(4 X ) + P(Y)= $ 을 만족시킬 때, \\(P(Y \\le 8 + \\frac{2\\sigma}{3}\\)의 값을 오른쪽 표준정규분포표를 이용하여 구한 것은? [3점]\n\n① 0.8351 ② 0.8413 ③ 0.9332 ④ 0.9772 ⑤ 0.9938\n\n\n\n\\(z\\)\n\\(P(0\\le Z \\le z )\\)\n\n\n\n\n1.0\n0.3413\n\n\n1.5\n0.4332\n\n\n2.0\n0.4772\n\n\n2.5\n0.4938"
   },
   {
     "objectID": "student.html",
@@ -165,21 +200,35 @@
     "href": "workshop.html",
     "title": "수학교육 통계패키지",
     "section": "",
-    "text": "온라인 참여신청\n연수참여\n\n참여신청을 하시고 승인된 분께만 Google Meet 초대장을 통해 연수에 참여 가능합니다."
+    "text": "한국 R 사용자회에서는 통계패키지를 사용하고 있는 다양한 사용자의 요구를 충족시키기 위해 다양한 기능이 포함된 소프트웨어, 콘텐츠, 데이터, 커뮤니티를 운영하고 있습니다.\n\n학생: 귀납적 사고방식과 문제풀이 방식을 이해한 후에 학생 스스로 데이터를 가지고 분석을 할 수 있는 도구가 필요\n교사: 귀납적 사고방식과 문제풀이 방식을 학생에게 전달할 수 있는 효과적인 도구가 필요\n개발자: 학생과 교사 및 이해당사자가 필요한 통계 관련 콘텐츠, 데이터, 소프트웨어를 개발할 수 있는 플랫폼과 네트워크가 필요\n석박사 논문: 데이터 사이언스 시대에 맞는 맞춤형 석박사 논문 제작 및 개발을 지원할 수 있는 도구가 필요\n\n\n\n\n\n\n교사 : https://github.com/bit2r/bitStat-HS\n학생 : https://bitstat.shinyapps.io/bitstat/\n개발자: https://github.com/bit2r\n논문제작과 글쓰기\n\n통계 가설검정: https://r2bit.shinyapps.io/infer_shiny/\n디지털 글쓰기: http://bit2edu.ddns.net/\n\n코딩\n\n리보그: http://bit2server.ddns.net/app/reeborg/\nRStudio IDE: http://bit2edu.ddns.net/rstudio/"
   },
   {
-    "objectID": "workshop.html#교원-연수",
-    "href": "workshop.html#교원-연수",
+    "objectID": "workshop.html#참여신청",
+    "href": "workshop.html#참여신청",
     "title": "수학교육 통계패키지",
-    "section": "교원 연수",
-    "text": "교원 연수\n\nOffice Hour 한국 R 사용자회 정기모임\n\n매주 수요일 · 오후 9:00~ 10:00\n참여신청 원하시는 분은 admin@r2bit.com 으로 연락주세요.\n\n서울 R 미트업\n\n서울 R 미트업에 “디지털 글쓰기 및 오픈 통계 패키지” 소모임있습니다. 소모임 참여를 원하시는 분은 admin@r2bit.com 으로 연락주세요.\n11월 05일 성균관대 미트업\n12월 10일 성균관대 미트업\n\n\n\n\n\n\n\n\n대면 워크샵 (1차)\n\n\n\n\n일시: 2022년 11월 12일 (토) 14:00 ~ 18:00\n장소: 성균관대학교 경제관 32211\n교육연수:\n\n콘텐츠 (교재): https://r2bit.com/bitBook/\n소프트웨어: http://bit2server.ddns.net/\n\n대면연수 참여신청\n\n\n\n\n\n\n\n\n\n대면 워크샵 (2차)\n\n\n\n\n일시: 2022년 11월 19일 (토) 14:00 ~ 18:00\n장소: 오픈업 서울 강남구 테헤란로 431 저스트코 타워 13층\n교육연수:\n\n콘텐츠 (교재): https://r2bit.com/bitBook/\n소프트웨어: http://bit2server.ddns.net/\n\n대면연수 참여신청"
+    "section": "참여신청",
+    "text": "참여신청\n\n온라인 참여신청\n연수참여\n\n참여신청을 하시고 승인된 분께만 Google Meet 초대장을 통해 연수에 참여 가능합니다.\n\n\n\n\n\n\n\n\n대면 워크샵 (1차)\n\n\n\n\n일시: 2022년 11월 12일 (토) 14:00 ~ 18:00\n장소: 성균관대학교 경제관 32211\n교육연수:\n\n콘텐츠 (교재): https://r2bit.com/bitBook/\n소프트웨어: http://bit2server.ddns.net/\n\n대면연수 참여신청\n\n\n\n\n\n\n\n\n\n대면 워크샵 (2차)\n\n\n\n\n일시: 2022년 11월 19일 (토) 14:00 ~ 18:00\n장소: 오픈업 서울 강남구 테헤란로 431 저스트코 타워 13층\n교육연수:\n\n콘텐츠 (교재): https://r2bit.com/bitBook/\n소프트웨어: http://bit2server.ddns.net/\n\n대면연수 참여신청"
   },
   {
-    "objectID": "workshop.html#온라인-연수-강의-노트-기록",
-    "href": "workshop.html#온라인-연수-강의-노트-기록",
+    "objectID": "workshop.html#온라인-강의-노트",
+    "href": "workshop.html#온라인-강의-노트",
     "title": "수학교육 통계패키지",
-    "section": "온라인 연수 강의 노트 기록",
-    "text": "온라인 연수 강의 노트 기록\n\n2022년 10월 28일: 비대면\n2022년 11월 04일: 비대면\n2022년 11월 12일: 대면\n2022년 11월 19일: 대면\n2022년 11월 26일: Bit-Edu 컨퍼런스"
+    "section": "온라인 강의 노트",
+    "text": "온라인 강의 노트\n\n2022년 10월 28일: 비대면\n2022년 11월 04일: 비대면\n2022년 11월 12일: 대면\n2022년 11월 19일: 대면\n2022년 11월 26일: Bit-Edu 컨퍼런스"
+  },
+  {
+    "objectID": "workshop.html#웹포스터",
+    "href": "workshop.html#웹포스터",
+    "title": "수학교육 통계패키지",
+    "section": "웹포스터",
+    "text": "웹포스터\n\n\n\n\n\n\n\n노트\n\n\n\n\n웹사이트: https://r2bit.com/sen/\n소스코드 저장소: https://github.com/bit2r/sen"
+  },
+  {
+    "objectID": "workshop.html#행사-프로그램",
+    "href": "workshop.html#행사-프로그램",
+    "title": "수학교육 통계패키지",
+    "section": "행사 프로그램",
+    "text": "행사 프로그램\n\n데이터 문해력과 디지털 글쓰기 (1 Hr)\n\n제목: 빛에듀(Bit-Edu) 생태계\n발제자: 한국R사용자회 강사 / 개발자\n개요: 빅데이터와 인공지능으로 촉발된 디지털 전환시대 필수역량을 자리잡은 데이터 문해력과 디지털 글쓰기를 통해 효과적으로 키울 수 있는 도구로 한국 R 사용자회를 주축으로 오픈소스 개발자가 참여하여 구축된 빛에듀(Bit-Edu) 생태계를 살펴보고 함께 성장해 나갈 수 있는 방안을 소개합니다.\n\n데이터 문해력 (0.5 Hr)\n\n제목: 오픈 통계 패키지(BitStat)\n발제자: 한국R사용자회 강사 / 개발자\n개요: 디지털 전환시대 필수 역량인 데이터 문해력 향상의 장애물들과 이를 극복할 수 있는 다양한 도구와 방법을 소개하고 한국 R 사용자회와 오픈소스 소프트웨어 개발자의 자발적인 기여로 개발중인 빛스탯(BitStat) 오픈 통계 패키지를 중심으로 데이터 문해력 여정과 여정을 함께 할 도구로 오픈소스 데이터(hsData, BitData), 소프트웨어(BitStat, 리보그, 블록 프로그래밍, Quarto), 콘텐츠(Quarto Book, 블로그, 논문, 웹사이트 등)를 소개합니다.\n\n디지털 글쓰기 (0.5 Hr)\n\n제목: 재현가능한 문서 저작 자동화(BitWriting)\n발제자: 한국R사용자회 강사 / 개발자\n개요: 기존 글쓰기가 사람을 위한 글쓰기였다면, 최근 코딩 바람이 거세게 불면서 프로그래밍을 통한 기계를 위한 글쓰기가 부각되고 있다. 따라서, 동시에 텍스트와 코드를 저작(Literate Programming)하고 블로그, 보고서, 논문, PPT, 책 등 다양한 형태로 저작물을 자동생성할 수 있는 역량이 필수적으로 요구되고 있습니다. 이를 위한 재현가능한 문서 저작 자동화(BitWriting) 도구도 함께 소개합니다.\n\n\n\n\n데이터 문해력 워크샵 (1 Hr)\n\n제목: 오픈 데이터, 통계, 문해력 워크샵\nInstructor(강사): 한국R사용자회 강사 혹은 외부전문강사\nAbstract: 오픈 데이터 패키지(BitData, hsData)와 오픈 통계 패키지(BitStat)를 활용하여 오픈소스 소프트웨어/콘텐츠 기여자와 공동으로 데이터가 품고 있는 정보를 밝혀내어 데이터 문해력을 향상시킬 수 있는 방법을 실습을 통해 함께 경험하고 기여할 수 있게 됩니다. 빛에듀 오픈 데이터와 소프트웨어 사용법에서 시작하여 데이터 과학(통계) 기본개념과 Tidyverse 패러다임도 학습하고, 데이터 저널리즘, 텍스트 분석 등 사례를 통해 데이터 문해력을 심층적으로 탐색합니다.\n\n디지털 글쓰기 워크샵 (1 Hr)\n\n제목: 재현가능한 문서 저작 자동화 실습\nInstructor(강사): 한국R사용자회 강사 혹은 외부전문강사\nAbstract: 데이터 문해력을 통해 발견한 사항을 미래의 자신과 동료, 소속기관, 사회와 커뮤니케이션할 수 있는 재현가능한 글쓰기 기본기를 핸즈온 워크샵을 통해 실습합니다. 빛에듀 저작도구를 기본으로 개념을 익히고 최신 Quarto 도구를 활용하여 매력적이며 동시에 고품질 문서 저작 자동화 기법도 익히게 됩니다."
   },
   {
     "objectID": "writing.html",
@@ -229,19 +278,5 @@
     "title": "디지털 글쓰기",
     "section": "6 디지털 글쓰기 앱",
     "text": "6 디지털 글쓰기 앱\n\nhttp://r2bit.ddns.net/"
-  },
-  {
-    "objectID": "sat/math_2022.html",
-    "href": "sat/math_2022.html",
-    "title": "대학수학능력시험 문제",
-    "section": "",
-    "text": "다항식 \\((x+2)^7\\) 전개식에서 \\(x^5\\)의 계수는? [2점]\n\n① 42\n② 56\n③ 70\n④ 84\n⑤ 98\n\\[\n{}_7 C_5 \\times x^5 \\times 2^2 \\\\~\\\\\n{}_7 C_2 \\times 2^2 \\times x^5= \\frac{7\\times 6}{2} \\times 4 = 42 \\times 2 = 84\n\\]\n\n\n\n\n확률변수 \\(X\\) 가 이항분포 \\(B(n,\\frac{1}{3})\\)을 따르고 \\(V(2X) =40\\) 일 때, \\(n\\)의 값은? [3점]\n\n① 30 ② 35 ③ 40 ④ 45 ⑤ 50\n\n\\(V(2X) = 4V(X) = 40\\) 따라서, \\(V(X) = 10\\)\n\\(V(X) = n \\times p \\times (1-p) = n \\times \\frac{1}{3} \\times \\frac{2}{3} = n \\times \\frac{2}{9}=10\\) 따라서, \\(n=45\\)\n\n\n\n\n\n1 부터 10까지 자연수가 하나씩 적혀 있는 10 장의 카드가 들어 있는 주머니가 있다. 이 주머니에서 임의로 카드 3 장을 동시에 꺼낼 때, 꺼낸 카드에 적혀 있는 세 자연수 중에서 가장 작은 수가 4 이하이거나 7 이상일 확률은? [3점]\n\n① \\(\\frac{4}{5}\\) ② \\(\\frac{5}{6}\\) ③ \\(\\frac{13}{15}\\) ④ \\(\\frac{9}{10}\\) ⑤ \\(\\frac{14}{15}\\)\n\n\n\n\n어느 자동차 회사에서 생산하는 전기 자동차의 1회 충전 주행 거리는 평균이 \\(m\\)이고 표준편차가 \\(\\sigma\\)인 정규분포를 따른다고 한다. 이 자동차 회사에서 생산한 전기 자동차 100 대를 임의추출하여 얻은 1회 충전 주행 거리의 표본평균이 \\(\\bar{x}_1\\) 일 때, 모평균 \\(m\\)에 대한 신뢰도 95 %의 신뢰구간이 \\(a \\le m \\le b\\) 이다. 이 자동차 회사에서 생산한 전기 자동차 400대를 임의추출하여 얻은 1회 충전 주행 거리의 표본평균이 \\(\\bar{x}_2\\)일 때, 모평균 \\(m\\)에 대한 신뢰도 95%의 신뢰구간이 \\(c \\le m \\le d\\)이다. \\(\\bar{x}_1 - \\bar{x}_2 = 1.34\\)이고 \\(a=c\\) 일 때, \\(b-a\\)의 값은? (단, 주행 거리의 단위는 km이고, \\(Z\\)가 표준정규분포를 따르는 확률변수일 때 \\(P(|Z|\\le1.96)=0.95, P(|Z|\\le 2.58)=0.99\\) 로 계산한다.) [3점]\n\n① 5.88 ② 7.84 ③ 9.80 ④ 11.76 ⑤ 13.72\n$$ {x}_1 - 1.96 m {x}_1 + 1.96 \\~\\\n{x}_1 - 1.96 m {x}_1 + 1.96 \\~\\$$\n$$ {x}_2 - 2.58 m {x}_2 + 2.58 \\~\\\n{x}_2 - 2.58 m {x}_2 + 2.58 $$\n상기 식에서 \\(a,c\\)는 다음과 같이 정의된다.\n\\[\n\\bar{x}_1 - 1.96 \\frac{\\sigma}{10} \\rightarrow a \\\\~\\\\\n\\bar{x}_2 - 2.58 \\frac{\\sigma}{20} \\rightarrow c\n\\]\n그리고 \\(a=c\\)이 성립하기 때문에\n$$ {x}_1 - 1.96 = {x}_2 - 2.58 \\~\\\n{x}_1 - {x}_2 = 1.96 - 2.58 $$ 여기서 \\(\\bar{x}_1 - \\bar{x}_2 = 1.34\\)로 주어졌기 때문에 \\(\\sigma\\)를 구할 수 있다.\n\\[\n1.34 =  1.96 \\frac{\\sigma}{10}  - 2.58 \\frac{\\sigma}{20} = \\\\~\\\\\n\\frac{\\sigma}{20}(3.92-2.58) = \\frac{\\sigma}{20}\\times1.34\n\\] 따라서, \\(\\sigma = 20\\)\n\\[\nb-a = 2 \\times 1.96 \\times \\frac{20}{10} = 4 \\times 1.96 = 7.84\n\\]"
-  },
-  {
-    "objectID": "sat/math_2022.html#번-문제-4",
-    "href": "sat/math_2022.html#번-문제-4",
-    "title": "대학수학능력시험 문제",
-    "section": "6번 문제",
-    "text": "6번 문제\n\n정규분포 \\(N(20, 5^2)\\)을 따르는 모집단에서 크기가 16인 표본을 임의추출하여 구한 표본평균을 \\(\\bar{X}\\)라 할 때, \\(E(\\bar{X}) + \\sigma(\\bar{X} )\\)의 값은? [3점]\n\n① \\(\\frac{83}{4}\\) ② \\(\\frac{85}{4}\\) ③ \\(\\frac{87}{4}\\) ④ \\(\\frac{89}{4}\\) ⑤ \\(\\frac{91}{4}\\)\n표본평균은 모평균과 같다.\n\\[\nE(\\bar{X}) = 20\n\\] 표본 분산은 모표준편차를 표본으로 나눠줘야 구할 수 있다. 즉,\n\\[\n\\sigma(\\bar{X}) = \\frac{5}{\\sqrt{16}} = \\frac{5}{4}\n\\]\n따라서,\n\\[\nE(\\bar{X}) + \\sigma(\\bar{X} ) = 20 + \\frac{5}{4} = \\frac{85}{4}\n\\] ## 22번 문제\n\n$( x + )^5 $ 의 전개식에서 \\(x^2\\)의 계수를 구하시오. [3점]\n\n\\[{}_5 C _4 \\times x^4 \\times \\big( \\frac{3}{x^2} \\big)^1 \\\\~\\\\\n{}_5 C _1 \\times x^2 \\times 3 = 5 \\times 3 \\times x^2 = 15 \\times x^2\n\\]\n\n확률변수 \\(X\\)는 평균이 8, 표준편차가 3 인 정규분포를 따르고, 확률변수 \\(Y\\) 는 평균이 \\(m\\), 표준편차가 \\(\\sigma\\)인 정규분포를 따른다. 두 확률변수 \\(X, Y\\)가 $P(4 X ) + P(Y)= $ 을 만족시킬 때, \\(P(Y \\le 8 + \\frac{2\\sigma}{3}\\)의 값을 오른쪽 표준정규분포표를 이용하여 구한 것은? [3점]\n\n① 0.8351 ② 0.8413 ③ 0.9332 ④ 0.9772 ⑤ 0.9938\n\n\n\n\\(z\\)\n\\(P(0\\le Z \\le z )\\)\n\n\n\n\n1.0\n0.3413\n\n\n1.5\n0.4332\n\n\n2.0\n0.4772\n\n\n2.5\n0.4938"
   }
 ]

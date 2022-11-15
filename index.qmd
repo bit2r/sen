@@ -1,21 +1,19 @@
 ---
 title: "수학교육 통계패키지"
+subtitle: "데이터 문해력과 디지털 글쓰기 컨퍼런스"
 filters:
    - lightbox
 lightbox: auto
 ---
 
 
+![](images/conference_preview.png)
 
-![](images/web-poster.jpg)
 
-## 콘텐츠 저작
+## 컨퍼런스 참여신청
 
-:::{.callout-note}
 
-- 웹사이트: <https://r2bit.com/sen/>
-- 소스코드 저장소: <https://github.com/bit2r/sen>
+- [**참여신청 클릭**](https://www.meetup.com/seoul-r-meetup/events/289596122/)
 
-:::
 
 
