@@ -46,7 +46,3 @@ format:
 - [EBSMath 이지통계](https://ebsmath.co.kr/easyTong)
 - [통그라미](https://tong.kostat.go.kr/front/main/main.do)
 
-
-
-
-datalab.naver.com
